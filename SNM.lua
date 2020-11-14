@@ -1,4 +1,4 @@
-gg.alert("Wait For 1 Minute")
+gg.alert("Wait For A Seconds")
 gg.sleep("3600")
 if gg.isPackageInstalled("com.gxlkj.tl") then
     gg.alert("Uninstall Your Decryption GG APK", "🇴 🇰") 
