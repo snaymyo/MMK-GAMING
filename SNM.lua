@@ -1,5 +1,5 @@
 gg.alert("Wait For A Seconds")
-gg.sleep("3600")
+gg.sleep("3000")
 if gg.isPackageInstalled("com.gxlkj.tl") then
     gg.alert("Uninstall Your Decryption GG APK", "🇴 🇰") 
     os.exit()
@@ -100,14 +100,14 @@ else
 end
 
 gg.setVisible(false)
-gg.alert(_ENV["os"]["date"]("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁   \n\n 📆 ᴛᴏᴅᴀʏ - %x 📅 \n ⏰ ɴᴏᴡ ᴛɪᴍᴇ - %H:%M %p  ⏰  \n 11လပိုင်း20ရက်နေ့တွင်းသက်တမ််းကုန်ဆုံးပါမည်"),  "🅽🅴🆇🆃") 
+gg.alert(_ENV["os"]["date"]("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁   \n\n 📆 ᴛᴏᴅᴀʏ - %x 📅 \n ⏰ ɴᴏᴡ ᴛɪᴍᴇ - %H:%M %p  ⏰  \n 11လပိုင်း11ရက်နေ့တွင်းသက်တမ််းကုန်ဆုံးပါမည်"),  "🅽🅴🆇🆃") 
 
 	
 
 Date = "20201121"
 date = os.date("%Y%m%d%X")
 if date > Date then
-gg.alert("🆂🅽🅼 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁   \n\n  သက်တန်းကုန်ဆုံးသွားပါပြီ  Adminထံ Date ထပ်တောင်းပါ  Facebook Account - sainaymyo143", "🇴 🇰") 
+gg.alert("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁   \n\n  သက်တန်းကုန်ဆုံးသွားပါပြီ  Adminထံ Date ထပ်တောင်းပါ  Facebook Account - https://m.me/mmkygn143", "🇴 🇰") 
 return
 end
 
@@ -145,6 +145,7 @@ function HOME()
 "🎮 🅶🅰🅼🅴 🅷🅰🅲🅺 🎮",
 "📽 🅸🅿🅰🅳 🆅🅸🅴🆆 📽",
 " 🆑🅸🅽🆃🅰🅽🅰🆑",
+" 🆂🅺🅸🅽 🅷🅰🅲🅺",
 "⛔ EXIT SCRIPT ⛔ ",
     }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n\n ADMIN - MMK \n sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n 💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143 \n " .. Time)
   if SMN == nil then
@@ -170,7 +171,10 @@ function HOME()
    if SMN == 7 then
       rp()
     end
-      if SMN == 8 then
+   if SMN == 8 then
+      skin()
+    end
+      if SMN == 9 then
       CLOSE()
     end
   end
@@ -181,8 +185,6 @@ function I()
 "🔫 ʟESS ʀECOɪʟ 🔫〘Iland〙",
 "🌆 ʙʟACK SKY〘Iland〙 ",
 "🔫 ʜEASʜOT 100% 〘ɢAME〙 ",
-"✨🎩✨ MAɢɪC ʙUʟʟET 〘ɢAME〙",
-" 🔘 AɪM ʙOT 🔘〘ɢAME〙",
 "📽ɪPAD VɪEW  📽 ",
 "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
 }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
@@ -197,16 +199,10 @@ if SNMO == nil then
     if SNMO [3] == true then
       AHSS()
     end
-      if SNMO [4] == true then
-      MB()
-    end
-     if SNMO [5] == true then
-    AB()
-  end
-   if SNMO [6] == true then
+   if SNMO [4] == true then
       Cam()
     end
-     if SNMO [7] == true then
+     if SNMO [5] == true then
     HOME()
   end
   end
@@ -4124,3758 +4120,6 @@ function crldevice1()
   gg.getResults(10)
   gg.editAll("7", 4)
   gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝ ")
-end
-
-function crldevice2()
-  gg.clearResults()
-  gg.setRanges(131072)
-  gg.searchNumber("256;8200;13::150", 4, false, 536870912, 0, -1)
-  gg.searchNumber("8200", 4, false, 536870912, 0, -1)
-  gg.getResults(10)
-  gg.editAll("6", 4)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crldevice3()
-  gg.clearResults()
-  gg.setRanges(131072)
-  gg.searchNumber("2305913382252838926", 32, false, 536870912, 0, -1)
-  gg.refineNumber("2305913382252838926", 32, false, 536870912, 0, -1)
-  gg.refineAddress("0D0", -1, 32, 536870912, 0, -1)
-  gg.refineNumber("2305913382252838926", 32, false, 536870912, 0, -1)
-  gg.getResults(1401)
-  gg.editAll("2305913382252838924", 32)
-  gg.clearResults()
-  gg.searchNumber("7169730606773899507", 32, false, 536870912, 0, -1)
-  gg.refineNumber("7169730606773899507", 32, false, 536870912, 0, -1)
-  gg.refineAddress("0C8", -1, 32, 536870912, 0, -1)
-  gg.refineNumber("7169730606773899507", 32, false, 536870912, 0, -1)
-  gg.getResults(1401)
-  gg.editAll("7169730606773831033", 32)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crldevice4()
-  gg.setRanges(131072)
-  gg.searchNumber("2305913416612577295", 32, false, 536870912, 0, -1)
-  gg.refineNumber("2305913416612577295", 32, false, 536870912, 0, -1)
-  gg.refineAddress("0E0", -1, 32, 536870912, 0, -1)
-  gg.refineNumber("2305913416612577295", 32, false, 536870912, 0, -1)
-  gg.getResults(1401)
-  gg.editAll("2305913416612577292", 32)
-  gg.clearResults()
-  gg.clearResults()
-  gg.searchNumber("2305913382252838926", 32, false, 536870912, 0, -1)
-  gg.refineNumber("2305913382252838926", 32, false, 536870912, 0, -1)
-  gg.refineAddress("0D0", -1, 32, 536870912, 0, -1)
-  gg.refineNumber("2305913382252838926", 32, false, 536870912, 0, -1)
-  gg.getResults(1401)
-  gg.editAll("2305913382252838924", 32)
-  gg.clearResults()
-  gg.searchNumber("7169730606773899507", 32, false, 536870912, 0, -1)
-  gg.refineNumber("7169730606773899507", 32, false, 536870912, 0, -1)
-  gg.refineAddress("0C8", -1, 32, 536870912, 0, -1)
-  gg.refineNumber("7169730606773899507", 32, false, 536870912, 0, -1)
-  gg.getResults(1401)
-  gg.editAll("7169730606773831033", 32)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crldevice5()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8200;16;13;14:57", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(2)
-  gg.editAll("4", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crldevice6()
-  gg.clearResults()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("32768;-2134900726;32769;-2134900725;32770;-2134900724::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("32768;32770::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("4", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crldevice7()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("4.5926155869782e-41;1.0863202718415e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("1.0863202718415e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("1.0863202718415e-25", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cr2()
-  CHACK22 = gg.multiChoice({
-    "❏ ᴄᴏʟᴏʀ ᴇxʏɴᴏs ʙʟᴀᴄᴋ",
-    "❏ ᴄᴏʟᴏʀ ᴇxʏɴᴏs ᴘɪɴᴋ",
-    "❏ ɴᴇᴡ ᴄᴏʟᴏʀ ᴇxʏɴᴏs ʀᴇᴅ ",
-    "❏ ᴄᴏʟᴏʀ ᴇxʏɴᴏs ʀᴇᴅ ʜᴅʀ",
-    "❏ ᴄᴏʟᴏʀ ᴇxʏɴᴏs ᴡʜɪᴛᴇ",
-    "❏ ɴᴇᴡ ᴄᴏʟᴏʀ ᴇxʏɴᴏs ʏᴇʟʟᴏᴡ",
-    "❏ ᴄᴏʟᴏʀ ᴇxʏɴᴏs 7870 ʀᴇᴅ",
-    "❏ ɴᴇᴡ ᴄᴏʟᴏʀ ᴇxʏɴᴏs 7870 ʏᴇʟʟᴏᴡ",
-    "❏ ᴄᴏʟᴏʀ ᴇxʏɴᴏs 8890 ʀᴇᴅ",
-    "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if CHACK22 == nil then
-  else
-    if CHACK22[1] == true then
-      cree1()
-    end
-    if CHACK22[2] == true then
-      cree2()
-    end
-    if CHACK22[3] == true then
-      cree3()
-    end
-    if CHACK22[4] == true then
-      cree4()
-    end
-    if CHACK22[5] == true then
-      cree5()
-    end
-    if CHACK22[6] == true then
-      cree6()
-    end
-    if CHACK22[7] == true then
-      cree7()
-    end
-    if CHACK22[8] == true then
-      cree8()
-    end
-    if CHACK22[9] == true then
-      cree9()
-    end
-    if CHACK22[10] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function cree1()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("573.70306396484;0.05499718338;1::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1)
-  gg.editAll("-999", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cree2()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("56;64;3:21", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("56", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("38", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cree3()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("1.1210388e-44;360.0;0.5:41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(200, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.getResults(200, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.addListItems({})
-  gg.processResume()
-  gg.clearResults()
-  gg.searchNumber("40;32;48;16;802824192:29", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(200, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.getResults(200, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.addListItems({})
-  gg.processResume()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cree4()
-  gg.clearResults()
-  gg.searchNumber("40D;32D;16D;2D::53", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  revert = gg.getResults(200, nil, nil, nil, nil, nil, nil, nil, nil)
-  for i, i in ipairs((gg.getResults(200, nil, nil, nil, nil, nil, nil, nil, nil))) do
-    if i.flags == gg.TYPE_DWORD then
-    end
-  end
-  gg.addListItems((gg.getResults(200, nil, nil, nil, nil, nil, nil, nil, nil)))
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cree5()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("573.70306396484;0.05499718338;1::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1)
-  gg.editAll("999", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cree6()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("1.1210388e-44;360.0;0.5:41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(200, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.getResults(200, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.addListItems({})
-  gg.processResume()
-  gg.clearResults()
-  gg.searchNumber("40;32;48;16;802824192:29", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(200, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.getResults(200, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.addListItems({})
-  gg.processResume()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cree7()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("24;802824704;32;2::21", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("24", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(5)
-  gg.editAll("22", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cree8()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("232;80;6;160;88;6;128;4", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("88", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(25)
-  gg.editAll("89", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cree9()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.clearResults()
-  gg.searchNumber("224D;128D;224D;14D;40D;64D;64D;12D;140D;16D;156D;32D;168D:533", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.processResume()
-  gg.refineNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(786)
-  gg.editAll("40;102", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cr3()
-  CLHDRAEVICE1 = gg.multiChoice({
-    "❏ ᴄᴏʟᴏʀ ʜᴅʀ ʙʟᴜᴇ",
-    "❏ ᴄᴏʟᴏʀ ʜᴅʀ ᴅɪᴀᴍᴏɴᴅ",
-    "❏ ᴄᴏʟᴏʀ ʜᴅʀ ɢʀᴇᴇɴ",
-    "❏ ᴄᴏʟᴏʀ ʜᴅʀ ʀᴀɪɴʙᴏᴡ",
-    "❏ ᴄᴏʟᴏʀ ʜᴅʀ ʀᴇᴅ",
-    "❏ ᴄᴏʟᴏʀ ʜᴅʀ ʏᴇʟʟᴏᴡ",
-    "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if CLHDRAEVICE1 == nil then
-  else
-    if CLHDRAEVICE1[1] == true then
-      crldhdrce1()
-    end
-    if CLHDRAEVICE1[2] == true then
-      crldhdrce2()
-    end
-    if CLHDRAEVICE1[3] == true then
-      crldhdrce3()
-    end
-    if CLHDRAEVICE1[4] == true then
-      crldhdrce4()
-    end
-    if CLHDRAEVICE1[5] == true then
-      crldhdrce5()
-    end
-    if CLHDRAEVICE1[6] == true then
-      crldhdrce6()
-    end
-    if CLHDRAEVICE1[7] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function crldhdrce1()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("0B0")
-  gg.getResults(999)
-  gg.editAll("8198", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crldhdrce2()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("1,661,337,615D;8,200D;1,194,380,049D:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(30)
-  gg.editAll("70", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crldhdrce3()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("1,661,337,615D;8,200D;1,194,380,049D:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(30)
-  gg.editAll("8230", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crldhdrce4()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("1,661,337,615D;8,200D;1,194,380,049D:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(30)
-  gg.editAll("74", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crldhdrce5()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8200;1,194,380,071;0;256:21", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(15)
-  gg.editAll("7", gg.TYPE_DWORD)
-  gg.editAll("3", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crldhdrce6()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("1,661,337,615D;8,200D;1,194,380,049D:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(30)
-  gg.editAll("65", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cr4()
-  CHACK33 = gg.multiChoice({
-    "❏ ᴄᴏʟᴏʀ ᴋɪʀɪɴ ʙʟᴀᴄᴋ",
-    "❏ ᴄᴏʟᴏʀ ᴋɪʀɪɴ ɢʀᴇᴇɴ",
-    "❏ ᴄᴏʟᴏʀ ᴋɪʀɪɴ ʀᴇᴅ",
-    "❏ ᴄᴏʟᴏʀ ᴋɪʀɪɴ ᴡʜɪᴛᴇ",
-    "❏ ᴄᴏʟᴏʀ ᴋɪʀɪɴ ʏᴇʟʟᴏᴡ",
-    "❏ ᴄᴏʟᴏʀ ᴋɪʀɪɴ 659 ɢʀᴇᴇɴ",
-    "❏ ᴄᴏʟᴏʀ ᴋɪʀɪɴ 659 ʀᴇᴅ",
-    "❏ ᴄᴏʟᴏʀ ᴋɪʀɪɴ 710 ɢʀᴇᴇɴ",
-    "❏ ᴄᴏʟᴏʀ ᴋɪʀɪɴ 710 ʏᴇʟʟᴏᴡ",
-    "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if CHACK33 == nil then
-  else
-    if CHACK33[1] == true then
-      creee1()
-    end
-    if CHACK33[2] == true then
-      creee2()
-    end
-    if CHACK33[3] == true then
-      creee3()
-    end
-    if CHACK33[4] == true then
-      creee4()
-    end
-    if CHACK33[5] == true then
-      creee5()
-    end
-    if CHACK33[6] == true then
-      creee6()
-    end
-    if CHACK33[7] == true then
-      creee7()
-    end
-    if CHACK33[8] == true then
-      creee8()
-    end
-    if CHACK33[9] == true then
-      creee9()
-    end
-    if CHACK33[10] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function creee1()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("40D;32D;16D;2D::37", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("39", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function creee2()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("2;2;8;6;40:45", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.processResume()
-  gg.refineNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.editAll("32", gg.TYPE_DWORD)
-  gg.processResume()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function creee3()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("16;32;40;48;40:41", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("25", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function creee4()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("40D;32D;16D;2D::37", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("42", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function creee5()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("16;32;40;48;40:41", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("36", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function creee6()
-  gg.clearResults()
-  gg.searchNumber("24;802824704;32;2:21", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("24", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.editAll("20", gg.TYPE_DWORD)
-  gg.processResume()
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function creee7()
-  gg.clearResults()
-  gg.searchNumber("24;802824704;32;2::21", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.processResume()
-  gg.refineNumber("24", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.editAll("22", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function creee9()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-  gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("0A0")
-  gg.getResults(999)
-  gg.editAll("8199", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function creee10()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("3152519739159347240", gg.TYPE_QWORD)
-  gg.addListItems((gg.getResults(20)))
-  gg.editAll("150", gg.TYPE_QWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cr5()
-  CHACK44 = gg.multiChoice({
-    "❏ ᴄᴏʟᴏʀ ᴍᴇᴅɪᴀᴛᴇᴋ ɢʀᴇᴇɴ [sᴍᴏᴏᴛʜ]",
-    "❏ ᴄᴏʟᴏʀ ᴍᴇᴅɪᴀᴛᴇᴋ ɢʀᴇᴇɴ [ʜᴅ]",
-    "❏ ᴄᴏʟᴏʀ ᴍᴇᴅɪᴀᴛᴇᴋ ʀᴇᴅ [sᴍᴏᴏᴛʜ]",
-    "❏ ᴄᴏʟᴏʀ ᴍᴇᴅɪᴀᴛᴇᴋ ʀᴇᴅ [ʜᴅ]",
-    "❏ ᴄᴏʟᴏʀ ᴍᴇᴅɪᴀᴛᴇᴋ ʏᴇʟʟᴏᴡ [sᴍᴏᴏᴛʜ]",
-    "❏ ᴄᴏʟᴏʀ ᴍᴇᴅɪᴀᴛᴇᴋ ᴡʜɪᴛᴇ [sᴍᴏᴏᴛʜ]",
-    "❏ ᴄᴏʟᴏʀ ᴍᴇᴅɪᴀᴛᴇᴋ ᴡʜɪᴛᴇ [ʜᴅʀ]",
-    "❏ ɴᴇᴡ ᴄᴏʟᴏʀ ᴍᴇᴅɪᴀᴛᴇᴋ ᴘ10 ɢʀᴇᴇɴ",
-    "❏ ᴄᴏʟᴏʀ ᴍᴇᴅɪᴀᴛᴇᴋ ᴘ60 ʙʟᴜᴇ",
-    "❏ ᴄᴏʟᴏʀ ᴍᴇᴅɪᴀᴛᴇᴋ ᴘ60 ʀᴇᴅ",
-    "❏ ᴄᴏʟᴏʀ ᴍᴇᴅɪᴀᴛᴇᴋ ᴘ60 ʏᴇʟʟᴏᴡ",
-    "❏ ᴄᴏʟᴏʀ ᴍᴇᴅɪᴀᴛᴇᴋ ᴘ22 ʙʟᴜᴇ",
-    "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if CHACK44 == nil then
-  else
-    if CHACK44[1] == true then
-      creeee1()
-    end
-    if CHACK44[2] == true then
-      creeee2()
-    end
-    if CHACK44[3] == true then
-      creeee3()
-    end
-    if CHACK44[4] == true then
-      creeee4()
-    end
-    if CHACK44[5] == true then
-      creeee5()
-    end
-    if CHACK44[6] == true then
-      creeee6()
-    end
-    if CHACK44[7] == true then
-      creeee7()
-    end
-    if CHACK44[8] == true then
-      creeee8()
-    end
-    if CHACK44[9] == true then
-      creeee9()
-    end
-    if CHACK44[10] == true then
-      creeee10()
-    end
-    if CHACK44[11] == true then
-      creeee11()
-    end
-    if CHACK44[12] == true then
-      creeee12()
-    end
-    if CHACK44[13] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function creeee1()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("56;64;48::40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("56", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("52", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function creeee2()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("38D;14D;24D;48D;41D;16D::209", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("48", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.editAll("33", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function creeee3()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("8;16;32;48;40::169", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("38", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function creeee4()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("49D;18D;50D;19D;51D;20D;59D;21D;75D;22D::89", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("59", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.editAll("44", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function creeee5()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("38D;14D;24D;48D;41D;16D::209", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("48", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.editAll("39", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function creeee6()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("573.70306396484;0.05499718338;1::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1)
-  gg.editAll("999", gg.TYPE_FLOAT)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function creeee7()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("74D;48D;49D;18D;50D;19D;51D;20D;59D;22D::121", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("49", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.editAll("44", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function creeee8()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("232;88;352:13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("88", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("-2", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function creeee9()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("802,824,192;48;937,041,920;40;736,370,688;32;802,824,192;48;802,824,192;16;802,824,192;2;2::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("28", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function creeee10()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("1.68155816e-44F;1.62092562e-12F;3162688022693019688Q;1.62092562e-12F;2.24207754e-44F:241", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("3162688022693019688", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  revert = gg.getResults(25, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.editAll("38", gg.TYPE_QWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝ Color Mediatek P60 Red 🤣")
-end
-
-function creeee11()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("1.68155816e-44F;1.62092562e-12F;3162688022693019688Q;1.62092562e-12F;2.24207754e-44F:241", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("3162688022693019688", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  revert = gg.getResults(25, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.editAll("36", gg.TYPE_QWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function creeee12()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("16;29;29;56:21", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("56", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.editAll("33", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-  gg.clearResults()
-  gg.setVisible(false)
-end
-
-function cr6()
-  CLRVECHILEICE1 = gg.multiChoice({
-    "❏ ᴄᴏʟᴏʀ ᴠᴇʜɪᴄʟᴇ ʙʟᴜᴇ",
-    "❏ ᴄᴏʟᴏʀ ᴠᴇʜɪᴄʟᴇ ʀᴇᴅ",
-    "❏ ᴄᴏʟᴏʀ ᴠᴇʜɪᴄʟᴇ ʏᴇʟʟᴏᴡ",
-    "• • •『 ʙᴀᴄᴋ 』• • •"
-  }, nil, " ┏🇲🇲𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 𝐕𝐢𝐩 🇲🇲\n┣👨‍✈ ᴘᴜʙɢ ᴍᴏʙɪʟᴇ 0.19.0")
-  if CLRVECHILEICE1 == nil then
-  else
-    if CLRVECHILEICE1[1] == true then
-      crldvechioae1()
-    end
-    if CLRVECHILEICE1[2] == true then
-      crldvechioae2()
-    end
-    if CLRVECHILEICE1[3] == true then
-      crldvechioae3()
-    end
-    if CLRVECHILEICE1[4] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function crldvechioae1()
-  gg.searchNumber("8200;1194380048;283705351;1081098260;15:17", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("11", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crldvechioae2()
-  gg.searchNumber("8200;1194380048;283705351;1081098260;15:17", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("7", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝ ")
-end
-
-function crldvechioae3()
-  gg.searchNumber("8200;1194380048;283705351;1081098260;15:17", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("6", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cr7()
-  CLRSNAP4001 = gg.multiChoice({
-    "❏ ᴄᴏʟᴏʀ 400 ɢʀᴇᴇɴ",
-    "❏ ᴄᴏʟᴏʀ 400 ʏᴇʟʟᴏᴡ",
-    "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if CLRSNAP4001 == nil then
-  else
-    if CLRSNAP4001[1] == true then
-      crl4001()
-    end
-    if CLRSNAP4001[2] == true then
-      crl4002()
-    end
-    if CLRSNAP4001[3] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function crl4001()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8,201;8,202;538,968,081:29", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8202", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1)
-  gg.editAll("8", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝ ")
-end
-
-function crl4002()
-  gg.setRanges(gg.REGION_BAD)
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("856128", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(4)
-  gg.editAll("856118", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.searchNumber("196610;1280;196608:25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("196608", gg.TYPE_DWORD, false)
-  gg.getResults(10)
-  gg.editAll("9999", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝ ")
-end
-
-function cr8()
-  CLRSNAP4101 = gg.multiChoice({
-    "❏ ᴄᴏʟᴏʀ 410 ʙʟᴜᴇ",
-    "❏ ᴄᴏʟᴏʀ 410 ɢʀᴇᴇɴ",
-    "❏ ᴄᴏʟᴏʀ 410 ʀᴇᴅ",
-    "❏ ᴄᴏʟᴏʀ 410 ʏᴇʟʟᴏᴡ",
-    "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if CLRSNAP4101 == nil then
-  else
-    if CLRSNAP4101[1] == true then
-      crl4101()
-    end
-    if CLRSNAP4101[2] == true then
-      crl4102()
-    end
-    if CLRSNAP4101[3] == true then
-      crl4103()
-    end
-    if CLRSNAP4101[4] == true then
-      crl4104()
-    end
-    if CLRSNAP4101[5] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function crl4101()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("1.1490647e-41;1.0863203e-19::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("1.0863203e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(30)
-  gg.editAll("1.0863203e-25", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝ ")
-end
-
-function crl4102()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8,201;8,202;538,968,081:29", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8202", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1)
-  gg.editAll("8", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝ ")
-end
-
-function crl4103()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8,192;8,204;1,507,345;8,200:129", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(20)
-  gg.editAll("6", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝ ")
-end
-
-function crl4104()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("856128", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(4)
-  gg.editAll("856118", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.searchNumber("196610;1280;196608:25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("196608", gg.TYPE_DWORD, false)
-  gg.getResults(10)
-  gg.editAll("9999", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝ ")
-end
-
-function cr9()
-  CLRSNAP4151 = gg.multiChoice({
-    "❏ ᴄᴏʟᴏʀ 415 ɢʀᴇᴇɴ",
-    "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if CLRSNAP4151 == nil then
-  else
-    if CLRSNAP4151[1] == true then
-      crl4151()
-    end
-    if CLRSNAP4151[2] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function crl4151()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("200761;92;8204;856124;108;196610:409", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1000)
-  gg.editAll("8500", gg.TYPE_DWORD)
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("856,128", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(3)
-  gg.editAll("856093", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.searchNumber("196,610;1,280;196,608::25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("196608", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(5)
-  gg.editAll("9999", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝ ")
-end
-
-function cr10()
-  CLRSNAP4251 = gg.multiChoice({
-    "❏ ᴄᴏʟᴏʀ 425 ʙʟᴜᴇ",
-    "❏ ᴄᴏʟᴏʀ 425 ɢʀᴇᴇɴ",
-    "❏ ᴄᴏʟᴏʀ 425 ᴍɪx",
-    "❏ ᴄᴏʟᴏʀ 425 ʀᴇᴅ",
-    "❏ ᴄᴏʟᴏʀ 425 ʏᴇʟʟᴏᴡ",
-    "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if CLRSNAP4251 == nil then
-  else
-    if CLRSNAP4251[1] == true then
-      crl4251()
-    end
-    if CLRSNAP4251[2] == true then
-      crl4252()
-    end
-    if CLRSNAP4251[3] == true then
-      crl4253()
-    end
-    if CLRSNAP4251[4] == true then
-      crl4254()
-    end
-    if CLRSNAP4251[5] == true then
-      crl4255()
-    end
-    if CLRSNAP4251[6] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function crl4251()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("32,769D;1,086,324,737D;68D;538,968,069D;8,204D:17", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("9", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝ ")
-end
-
-function crl4252()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("856,128", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResultsCount()
-  gg.getResults(3)
-  gg.editAll("856095", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.searchNumber("196,610;1,280;196,608::25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("196608", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(5)
-  gg.editAll("9999", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝ ")
-end
-
-function crl4253()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("856128", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(4)
-  gg.editAll("99", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.searchNumber("200761;92;8204;856124;108;196610:409", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.editAll("1", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl4254()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("200,761;92;8,204;856,124;108;196,610:409", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(3)
-  gg.editAll("8203", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl4255()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("856128", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(4)
-  gg.editAll("99", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("4060000BhA;0000200ChA", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.editAll("6666", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cr11()
-  CLRSNAP4301 = gg.multiChoice({
-    "❏ ᴄᴏʟᴏʀ 430 ɢʀᴇᴇɴ",
-    "❏ ᴄᴏʟᴏʀ 430 ʀᴇᴅ",
-    "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if CLRSNAP4301 == nil then
-  else
-    if CLRSNAP4301[1] == true then
-      crl4301()
-    end
-    if CLRSNAP4301[2] == true then
-      crl4302()
-    end
-    if CLRSNAP4301[3] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function crl4301()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("200761;92;8204;856124;108;196610:409", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.editAll("99", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl4302()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("4060000BhA;0000200ChA", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.editAll("75", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cr12()
-  CLRSNAP4351 = gg.multiChoice({
-    "❏ ᴄᴏʟᴏʀ 435 ɢʀᴇᴇɴ",
-    "❏ ɴᴇᴡ ᴄᴏʟᴏʀ 435 ʀᴇᴅ",
-    "❏ ᴄᴏʟᴏʀ 435 ʏᴇʟʟᴏᴡ",
-    "❏ ɴᴇᴡ ᴄᴏʟᴏʀ 435 ᴡʜɪᴛᴇ",
-    "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if CLRSNAP4351 == nil then
-  else
-    if CLRSNAP4351[1] == true then
-      crl4351()
-    end
-    if CLRSNAP4351[2] == true then
-      crl4352()
-    end
-    if CLRSNAP4351[3] == true then
-      crl4353()
-    end
-    if CLRSNAP4351[4] == true then
-      crl4354()
-    end
-    if CLRSNAP4351[5] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function crl4351()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("200761;92;8204;856124;108;196610:409", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.editAll("99", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl4352()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("1,661,239,308;8,200;1,194,380,045:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(6)
-  gg.editAll("7", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl4353()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("284,164,106;1,080,035,849;8,200:41", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(3)
-  gg.editAll("6", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl4354()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("284,164,106;1,080,035,849;8,200:41", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(3)
-  gg.editAll("6", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cr13()
-  CLRSNAP4501 = gg.multiChoice({
-    "❏ ᴄᴏʟᴏʀ 450 ɢʀᴇᴇɴ",
-    "❏ ᴄᴏʟᴏʀ 450 ʀᴇᴅ",
-    "❏ ᴄᴏʟᴏʀ 450 ʏᴇʟʟᴏᴡ",
-    "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if CLRSNAP4501 == nil then
-  else
-    if CLRSNAP4501[1] == true then
-      crl4501()
-    end
-    if CLRSNAP4501[2] == true then
-      crl4502()
-    end
-    if CLRSNAP4501[3] == true then
-      crl4503()
-    end
-    if CLRSNAP4501[4] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function crl4501()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("200761;92;8204;856124;108;196610:409", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.editAll("99", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝ ")
-end
-
-function crl4502()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("4060000BhA;0000200ChA", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.editAll("75", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl4503()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("1.3912525e-19F;8200;96", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("6", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cr14()
-  CLRSNAP6101 = gg.multiChoice({
-    "❏ ᴄᴏʟᴏʀ 610 ʀᴇᴅ",
-    "❏ ᴄᴏʟᴏʀ 610 ʏᴇʟʟᴏᴡ",
-    "❏ ᴄᴏʟᴏʀ 610 ᴡʜɪᴛᴇ",
-    "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if CLRSNAP6101 == nil then
-  else
-    if CLRSNAP6101[1] == true then
-      crl6101()
-    end
-    if CLRSNAP6101[2] == true then
-      crl6102()
-    end
-    if CLRSNAP6101[3] == true then
-      crl6103()
-    end
-    if CLRSNAP6101[4] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function crl6101()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("1,080,033,292D;786,441D;8,200D::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("7", gg.TYPE_DWORD)
-  ggg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl6102()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("1,080,033,292D;786,441D;8,200D::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("6", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl6103()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("1,080,033,292D;786,441D;8,200D::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("9", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cr15()
-  CLRSNAP6151 = gg.multiChoice({
-    "❏ ᴄᴏʟᴏʀ 615 ʙʟᴜᴇ",
-    "❏ ᴄᴏʟᴏʀ 615 ᴄʏᴀɴ",
-    "❏ ᴄᴏʟᴏʀ 615 ɢʀᴇᴇɴ",
-    "❏ ᴄᴏʟᴏʀ 615 ʀᴇᴅ",
-    "❏ ᴄᴏʟᴏʀ 615 ʏᴇʟʟᴏᴡ",
-    "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if CLRSNAP6151 == nil then
-  else
-    if CLRSNAP6151[1] == true then
-      crl6151()
-    end
-    if CLRSNAP6151[2] == true then
-      crl6152()
-    end
-    if CLRSNAP6151[3] == true then
-      crl6153()
-    end
-    if CLRSNAP6151[4] == true then
-      crl6154()
-    end
-    if CLRSNAP6151[5] == true then
-      crl6155()
-    end
-    if CLRSNAP6151[6] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function crl6151()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("R_R({5,159,46,192,78,222,123,7,151,45,189,79,229,110,5,148,47,185,81,221,110,255,150,45,181,79,222,112,252,150,42,179,70,215})", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.processResume()
-  gg.refineNumber("R_R({5,159,46,192,76,230})", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  revert = gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.editAll("R_R({5,159,46,192,77,230})", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl6152()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("1,669,398,531;1,280;196,608;1,310,720;268,435,456:45", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("196608", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("196619", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("1,280;196,619;1,310,720;268,435,456;1,212,416;393,216;196,608:421", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("196608", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("196619", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl6153()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("R_R({5,159,46,192,78,222,123,7,151,45,189,79,229,110,5,148,47,185,81,221,110,255,150,45,181,79,222,112,252,150,42,179,70,215})", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.processResume()
-  gg.refineNumber("R_R({5,159,46,192,76,230})", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  revert = gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.editAll("R_R({5,159,46,192,77,231})", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl6154()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("R_R({5,159,46,192,78,222,123,7,151,45,189,79,229,110,5,148,47,185,81,221,110,255,150,45,181,79,222,112,252,150,42,179,70,215})", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.processResume()
-  gg.refineNumber("R_R({5,159,46,192,76,230})", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  revert = gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.editAll("R_R({5,159,46,192,78,222})", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl6155()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8,192D;256D;65,540D;12D;8200D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("6", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8,192D;256D;65,540D;12D;8200D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("6", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8,192D;256D;65,540D;12D;8200D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("6", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cr16()
-  CLRSNAP6251 = gg.multiChoice({
-    "❏ ᴄᴏʟᴏʀ 625 ʙʟᴜᴇ",
-    "❏ ɴᴇᴡ ᴄᴏʟᴏʀ 625 ɢʀᴇᴇɴ",
-    "❏ ɴᴇᴡ ᴄᴏʟᴏʀ 625 ʀᴇᴅ",
-    "❏ ᴄᴏʟᴏʀ 625 ʏᴇʟʟᴏᴡ",
-    "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if CLRSNAP6251 == nil then
-  else
-    if CLRSNAP6251[1] == true then
-      crl6251()
-    end
-    if CLRSNAP6251[2] == true then
-      crl6252()
-    end
-    if CLRSNAP6251[3] == true then
-      crl6253()
-    end
-    if CLRSNAP6251[4] == true then
-      crl6254()
-    end
-    if CLRSNAP6251[5] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function crl6251()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("256;655370;128;8200;16;243;201;539246603:129", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("3", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl6252()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("256;655370;128;8200;16;243;201;539246603:129", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("78", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅??𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl6253()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("256D;8,200D;13D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResultsCount()
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(20)
-  gg.editAll("8198", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl6254()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("256D;8,200D;13D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResultsCount()
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(20)
-  gg.editAll("8198", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cr17()
-  CLRSNAP6361 = gg.multiChoice({
-    "❏ ᴄᴏʟᴏʀ 636 ɢʀᴇᴇɴ",
-    "❏ ᴄᴏʟᴏʀ 636 ʀᴇᴅ",
-    "❏ ᴄᴏʟᴏʀ 636 ʏᴇʟʟᴏᴡ",
-    "❏ ᴄᴏʟᴏʀ 636 ᴡʜɪᴛᴇ",
-    "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if CLRSNAP6361 == nil then
-  else
-    if CLRSNAP6361[1] == true then
-      crl6361()
-    end
-    if CLRSNAP6361[2] == true then
-      crl6362()
-    end
-    if CLRSNAP6361[3] == true then
-      crl6363()
-    end
-    if CLRSNAP6361[4] == true then
-      crl6364()
-    end
-    if CLRSNAP6361[5] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function crl6361()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("1669332992;536887297;536887305:25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.processResume()
-  revert = gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.editAll("9999", gg.TYPE_DWORD)
-  gg.clearResults()
-  ggg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl6362()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8,200D;1,194,380,045D;786,443D:9", ggTYPE_DWORD, false, ggSIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", ggTYPE_DWORD, false, ggSIGN_EQUAL, 0, -1)
-  gg.getResults(20)
-  gg.editAll("6", ggTYPE_DWORD)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("B({50,46,52,57,48,51,49,52,55,101,50,49,70,59,56,50,48,48,68,59,52,53,50,53,57,46,48,54,50,53,70,58,49,55})", ggTYPE_DWORD, false, ggSIGN_EQUAL, 0, -1)
-  gg.refineNumber("B({56,50,48,48})", ggTYPE_DWORD, false, ggSIGN_EQUAL, 0, -1)
-  revert = gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.editAll("B({55})", ggTYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl6363()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8192;256;6;8200:129", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.processResume()
-  gg.refineNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
-  gg.editAll("6", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl6364()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("256D;8,200D;13D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResultsCount()
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(20)
-  gg.editAll("8198", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cr18()
-  CLRSNAP6501 = gg.multiChoice({
-    "❏ ᴄᴏʟᴏʀ 650 ʏᴇʟʟᴏᴡ",
-    "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if CLRSNAP6501 == nil then
-  else
-    if CLRSNAP6501[1] == true then
-      crl6501()
-    end
-    if CLRSNAP6501[2] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function crl6501()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("1,661,239,308;8,200;1,194,380,045:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(20)
-  gg.editAll("7", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cr19()
-  CLRSNAP6531 = gg.multiChoice({
-    "❏ ᴄᴏʟᴏʀ 653 ʏᴇʟʟᴏᴡ",
-    "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if CLRSNAP6531 == nil then
-  else
-    if CLRSNAP6531[1] == true then
-      crl6531()
-    end
-    if CLRSNAP6531[2] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function crl6531()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8,192D;256D;65,540D;12D;8200D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("6", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cr20()
-  CLRSNAP6601 = gg.multiChoice({
-    "❏ ᴄᴏʟᴏʀ 660 ɢʀᴇᴇɴ",
-    "❏ ᴄᴏʟᴏʀ 660 ʀᴇᴅ",
-    "❏ ᴄᴏʟᴏʀ 660 ʏᴇʟʟᴏᴡ",
-    "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if CLRSNAP6601 == nil then
-  else
-    if CLRSNAP6601[1] == true then
-      crl6601()
-    end
-    if CLRSNAP6601[2] == true then
-      crl6602()
-    end
-    if CLRSNAP6601[3] == true then
-      crl6603()
-    end
-    if CLRSNAP6601[4] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function crl6601()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("256;655370;128;8200;16;243;201;539246603:129", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("78", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl6602()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("256D;8,200D;13D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResultsCount()
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(20)
-  gg.editAll("8198", gg.TYPE_DWORD)
- gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl6603()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("256D;8,200D;13D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResultsCount()
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(20)
-  gg.editAll("8198", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆??𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cr21()
-  CLRSNAP6651 = gg.multiChoice({
-    "❏ ᴄᴏʟᴏʀ 665 ʙʟᴜᴇ",
-    "❏ ᴄᴏʟᴏʀ 665 ɢʀᴇᴇɴ",
-    "❏ ɴᴇᴡ ᴄᴏʟᴏʀ 665 ʀᴇᴅ ",
-    "❏ ᴄᴏʟᴏʀ 665 ʏᴇʟʟᴏᴡ",
-    "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if CLRSNAP6651 == nil then
-  else
-    if CLRSNAP6651[1] == true then
-      crl6651()
-    end
-    if CLRSNAP6651[2] == true then
-      crl6652()
-    end
-    if CLRSNAP6651[3] == true then
-      crl6653()
-    end
-    if CLRSNAP6651[4] == true then
-      crl6654()
-    end
-    if CLRSNAP6651[5] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function crl6651()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("32.773D;50.331.648D;1.039.516.303D;1.025.761.280D;1.123.024.896D;1.050.800.659D;1.065.353.216D;1.170.939.904D;1.050.222.592D;1.058.422.784D::177", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("32773", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(25)
-  gg.editAll("7", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl6652()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("69,897;147,457;69,739", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("7", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl6653()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8,196D;8,192D;8,200D::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("7", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞??𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl6654()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8,196D;8,192D;8,200D::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("6", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cr22()
-gg.alert("Graphic HD များအား HD ထားပြီးမှသုံးပါ")
-  CLRSNAP6751 = gg.multiChoice({
-    "❏ ᴄᴏʟᴏʀ 675 ʙʟᴀᴄᴋ 👉 ɢʀᴀᴘʜɪᴄ sᴍᴏᴏᴛʜ",
-    "❏ ᴄᴏʟᴏʀ 675 ʙʟᴜᴇ 👉 ɢʀᴀᴘʜɪᴄ sᴍᴏᴏᴛʜ",
-    "❏ ᴄᴏʟᴏʀ 675 ɢʀᴇᴇɴ 👉 ɢʀᴀᴘʜɪᴄ sᴍᴏᴏᴛʜ",
-    "❏ ᴄᴏʟᴏʀ 675 ɢʀᴇᴇɴ 👉 ɢʀᴀᴘʜɪᴄ ʜᴅ",
-    "❏ ᴄᴏʟᴏʀ 675 ᴡʜɪᴛᴇ 👉 ɢʀᴀᴘʜɪᴄ ʜᴅ",
-    "❏ ᴄᴏʟᴏʀ 675 ʏᴇʟʟᴏᴡ ᴠ1 👉 ɢʀᴀᴘʜɪᴄ sᴍᴏᴏᴛʜ",
-    "❏ ᴄᴏʟᴏʀ 675 ʏᴇʟʟᴏᴡ ᴠ2 👉 ɢʀᴀᴘʜɪᴄ sᴍᴏᴏᴛʜ",
-    "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if CLRSNAP6751 == nil then
-  else
-    if CLRSNAP6751[1] == true then
-      crl6751()
-    end
-    if CLRSNAP6751[2] == true then
-      crl6752()
-    end
-    if CLRSNAP6751[3] == true then
-      crl6753()
-    end
-    if CLRSNAP6751[4] == true then
-      crl6754()
-    end
-    if CLRSNAP6751[5] == true then
-      crl6755()
-    end
-    if CLRSNAP6751[6] == true then
-      crl6756()
-    end
-    if CLRSNAP6751[7] == true then
-      crl6757()
-    end
-    if CLRSNAP6751[8] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function crl6751()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-  gg.searchNumber("1,988,957,478,846,464", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.sleep(140)
-  gg.refineNumber("1,988,957,478,846,464", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.sleep(140)
-  gg.refineAddress("65C", -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("1,988,957,478,846,464", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1401)
-  gg.editAll("1,988,957,532,585,984", gg.TYPE_QWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl6752()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("0B0")
-  gg.getResults(999)
-  gg.editAll("8198", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl6753()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("69,897;147,457;69,739", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("7", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl6754()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-  gg.searchNumber("5,129,670,511,822,905,353", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.sleep(140)
-  gg.getResults(1401)
-  gg.editAll("7", gg.TYPE_QWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl6755()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8202", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(330)
-  gg.editAll("14", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl6756()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("69,897;147,457;69,739", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("6", gg.TYPE_DWORD)
-  gg.clearResults()
-  ggg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl6757()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8196D;8192D;8200D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("8198", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cr23()
-  CLRSNAP7101 = gg.multiChoice({
-    "❏ ᴄᴏʟᴏʀ 710 ʙʟᴜᴇ",
-    "❏ ᴄᴏʟᴏʀ 710 ɢʀᴇᴇɴ",
-    "❏ ᴄᴏʟᴏʀ 710 ʀᴇᴅ",
-    "❏ ᴄᴏʟᴏʀ 710 ᴡʜɪᴛᴇ",
-    "❏ ᴄᴏʟᴏʀ 710 ʏᴇʟʟᴏᴡ",
-    "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if CLRSNAP7101 == nil then
-  else
-    if CLRSNAP7101[1] == true then
-      crl7101()
-    end
-    if CLRSNAP7101[2] == true then
-      crl7102()
-    end
-    if CLRSNAP7101[3] == true then
-      crl7103()
-    end
-    if CLRSNAP7101[4] == true then
-      crl7104()
-    end
-    if CLRSNAP7101[5] == true then
-      crl7105()
-    end
-    if CLRSNAP7101[6] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function crl7101()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("1,194,344,475D;8,201D;1,194,379,806D:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("6", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl7102()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("0A0", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(5)
-  gg.editAll("8199", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl7103()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("1,194,344,475D;8,201D;1,194,379,806D:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("6", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl7104()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8,192D;256D;8200D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(20)
-  gg.editAll("4", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl7105()
-  gg.setRanges(131072)
-  gg.searchNumber("1.3912525e-19F;8200;96", 4, false, 536870912, 0, -1)
-  gg.searchNumber("8200", 4, false, 536870912, 0, -1)
-  gg.getResults(10)
-  gg.editAll("6", 4)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cr24()
-  CLRSNAP7121 = gg.multiChoice({
-    "❏ ᴄᴏʟᴏʀ 712 ɢʀᴇᴇɴ",
-    "❏ ɴᴇᴡ ᴄᴏʟᴏʀ 712 ʀᴇᴅ",
-    "❏ ᴄᴏʟᴏʀ 712 ʏᴇʟʟᴏᴡ",
-    "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if CLRSNAP7121 == nil then
-  else
-    if CLRSNAP7121[1] == true then
-      crl7121()
-    end
-    if CLRSNAP7121[2] == true then
-      crl7122()
-    end
-    if CLRSNAP7121[3] == true then
-      crl7123()
-    end
-    if CLRSNAP7121[4] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function crl7121()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(999)
-  gg.editAll("8199", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl7122()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-  gg.searchNumber("1,081,081,875D;8,200D;1,194,344,485D:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("13", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫??𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl7123()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("1703959D;8200D;8201D:17", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("1703959;8200;8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("6;7;8199", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cr25()
-  CLRSNAP8351 = gg.multiChoice({
-    "❏ ᴄᴏʟᴏʀ 835 ɢʀᴇᴇɴ",
-    "❏ ᴄᴏʟᴏʀ 835 ʀᴇᴅ",
-    "❏ ᴄᴏʟᴏʀ 835 ʏᴇʟʟᴏᴡ",
-    "• • •『 ʙᴀᴄᴋ 』• • •"
-  }, nil, "┏🇲🇲𝐆??𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 𝐕𝐢𝐩 🇲🇲\n┣👨‍✈ ᴘᴜʙɢ ᴍᴏʙɪʟᴇ 0.19.0")
-  if CLRSNAP8351 == nil then
-  else
-    if CLRSNAP8351[1] == true then
-      crl8351()
-    end
-    if CLRSNAP8351[2] == true then
-      crl8352()
-    end
-    if CLRSNAP8351[3] == true then
-      crl8353()
-    end
-    if CLRSNAP8351[4] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function crl8351()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("0A0")
-  gg.getResults(999)
-  gg.editAll("8199", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl8352()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("098", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(20)
-  gg.editAll("8199", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝ ")
-end
-
-function crl8353()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("098", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(20)
-  gg.editAll("8198", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cr26()
-  CLRSNAP8451 = gg.multiChoice({
-    "❏ ᴄᴏʟᴏʀ 845 ɢʀᴇᴇɴ",
-    "❏ ᴄᴏʟᴏʀ 845 ʀᴇᴅ",
-    "❏ ᴄᴏʟᴏʀ 845 ʀᴇᴅ ʜᴅʀ",
-    "❏ ɴᴇᴡ ᴄᴏʟᴏʀ 845 ʏᴇʟʟᴏᴡ",
-    "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if CLRSNAP8451 == nil then
-  else
-    if CLRSNAP8451[1] == true then
-      crl8451()
-    end
-    if CLRSNAP8451[2] == true then
-      crl8452()
-    end
-    if CLRSNAP8451[3] == true then
-      crl8453()
-    end
-    if CLRSNAP8451[4] == true then
-      crl8454()
-    end
-    if CLRSNAP8451[5] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function crl8451()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(15)
-  gg.editAll("7", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl8452()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("1703959D;8200D;8201D:17", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("7", gg.TYPE_DWORD)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl8453()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8200;1,194,380,071;0;256:21", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(15)
-  gg.editAll("7", gg.TYPE_DWORD)
-  gg.editAll("3", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl8454()
-  gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-  gg.searchNumber("536887312;539246610;-2128609280;8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(20)
-  gg.editAll("6", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function cr27()
-  CLRSNAP8551 = gg.multiChoice({
-    "❏ ᴄᴏʟᴏʀ 855 ʀᴇᴅ 👉 ɢʀᴀᴘʜɪᴄ sᴍᴏᴏᴛʜ",
-    "❏ ᴄᴏʟᴏʀ 855 ʏᴇʟʟᴏᴡ 👉 ɢʀᴀᴘʜɪᴄ sᴍᴏᴏᴛʜ",
-    "❏ ᴄᴏʟᴏʀ 855 ɢʀᴇᴇɴ 👉 ɢʀᴀᴘʜɪᴄ ʜᴅ",
-    "❏ ᴄᴏʟᴏʀ 855 ᴡʜɪᴛᴇ 👉 ɢʀᴀᴘʜɪᴄ sᴍᴏᴏᴛʜ",
-    "• • •『 ʙᴀᴄᴋ 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if CLRSNAP8551 == nil then
-  else
-    if CLRSNAP8551[1] == true then
-      crl8551()
-    end
-    if CLRSNAP8551[2] == true then
-      crl8552()
-    end
-    if CLRSNAP8551[3] == true then
-      crl8553()
-    end
-    if CLRSNAP8551[4] == true then
-      crl8554()
-    end
-    if CLRSNAP8551[5] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function crl8551()
-  gg.clearResults()
-  gg.setRanges(131072)
-  gg.searchNumber("8,196D;8,192D;8,200D::", 4, false, 536870912, 0, -1)
-  gg.searchNumber("8200", 4, false, 536870912, 0, -1)
-  gg.getResults(10)
-  gg.editAll("7", 4)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function crl8552()
-  gg.clearResults()
-  gg.setRanges(131072)
-  gg.searchNumber("8200", 4, false, 536870912, 0, -1)
-  gg.refineAddress("0A8", -1, 4, 536870912, 0, -1)
-  gg.getResults(1000)
-  gg.editAll("8198", 4)
-  gg.clearResults()
-  gg.searchNumber("8201", 4, false, 536870912, 0, -1)
-  gg.refineAddress("0B0", -1, 4, 536870912, 0, -1)
-  gg.getResults(1000)
-  gg.editAll("8199", 4)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝ ")
-end
-
-function crl8553()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(15)
-  gg.editAll("7", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝ ")
-end
-
-function crl8554()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("8200;1,194,380,071;0;256:21", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(15)
-  gg.editAll("7", gg.TYPE_DWORD)
-  gg.editAll("3", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function MENUHACK()
-  MENU3 = gg.multiChoice({
-    "❏ 𝑶𝒏𝒆 𝑪𝒍𝒊𝒄𝒌 𝑯𝒂𝒄𝒌",
-    "❏ ғᴀsᴛ ᴘᴀʀᴀsʜᴜᴛᴇ",
-    "❏ ɴᴏ ʀᴇᴄᴏɪʟ",
-    "❏ ʟᴇss ʀᴇᴄᴏɪʟ",
-    "❏ ʜᴇᴀᴅ sʜᴏᴛ",
-    "❏ ᴍᴀɢɪᴄ ʙᴜʟʟᴇᴛ",
-    "❏ ᴀɴᴛᴇɴᴀ",
-    "❏ ʙʟᴀᴄᴋ sᴋʏ",
-    "❏ ᴄᴀᴍᴇʀᴀ ᴠɪᴇᴡ",
-    "❏ ᴀɪᴍ ʙᴏᴛ",
-    "❏ ᴀɪᴍ ʟᴏᴏᴋ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if MENU3 == nil then
-  else
-    if MENU3[1] == true then
-      Auto()
-    end
-    if MENU3[2] == true then
-      Fp()
-    end
-    if MENU3[3] == true then
-      NoRec()
-    end
-    if MENU3[4] == true then
-      Lessrec()
-    end
-    if MENU3[5] == true then
-      Hs()
-    end
-    if MENU3[6] == true then
-      Mb()
-    end
-    if MENU3[7] == true then
-      Antena()
-    end
-    if MENU3[8] == true then
-      Bs()
-    end
-    if MENU3[9] == true then
-      Cam()
-    end
-    if MENU3[10] == true then
-      Am()
-    end
-    if MENU3[11] == true then
-      Al()
-    end
-    if MENU3[12] == true then
-      HOME()
-    end
-  end
-  PUBGMH = -1
-end
-
-function Auto()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_DATA)
-  gg.searchNumber("-309056968;-298841599;-309061065", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("-298841599", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(5)
-  gg.editAll("0", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("69.5;35;33", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(6)
-  gg.editAll("290;140;230", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("900;505", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("3.5;1.0;0.5;0.10000000149;200.0::512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("3.5;1.0;0.5;0.10000000149;200.0::512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("999999", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("3.5;1;0.5;200;20::", gg.TYPE_FLOAT)
-  gg.getResults(200)
-  gg.editAll("999999999", gg.TYPE_FLOAT)
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("6.0;2.0;1.0::99", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("101", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("3.5;1;0.5;200;20::", gg.TYPE_FLOAT)
-  gg.getResults(200)
-  gg.editAll("999999999", gg.TYPE_FLOAT)
-  gg.clearResults()
-    gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-function Antena()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("88.50576019287F;87.27782440186F;-100.91194152832F;1F::13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("88.50576019287F;87.27782440186F;1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(6)
-  gg.editAll("1.96875;1.96875;999;1.96875;1.96875;999", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function NoRec()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("1,084,227,584D;1D;0.64999997616F;1.2520827e-32F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("1.2520827e-32", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("1.4012985e-43", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("0.2~0.3;53;30;1::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("0.2~0.3;1::", gg.TYPE_FLOAT)
-  gg.getResults(200)
-  gg.editAll("1.4012985e-45", gg.TYPE_FLOAT)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function Lessrec()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_DATA)
-  gg.searchNumber("-309056968;-298841599;-309061065", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("-298841599", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(5)
-  gg.editAll("0", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function Cam()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("2.8025969e-45;220;25;178;15;100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("220", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("440", gg.TYPE_FLOAT)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function Hs()
-  gg.clearResults()
-  gg.setRanges(131072)
-  gg.searchNumber("-88.66608428955;26:512", 16, false, 536870912, 0, -1)
-  gg.searchNumber("26", 16, false, 536870912, 0, -1)
-  gg.getResults(2)
-  gg.editAll("-460", 16)
-  gg.clearResults()
-  gg.searchNumber("-88.73961639404;28:512", 16, false, 536870912, 0, -1)
-  gg.searchNumber("28", 16, false, 536870912, 0, -1)
-  gg.getResults(2)
-  gg.editAll("-560", 16)
-  gg.clearResults()
-  gg.setRanges(32)
-  gg.searchNumber("9.201618;30.5;25", 16, false, 536870912, 0, -1)
-  gg.searchNumber("25;30.5", 16, false, 536870912, 0, -1)
-  gg.getResults(10)
-  gg.editAll("250", 16)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 ??𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function Mb()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("69.5;35;33", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(6)
-  gg.editAll("160;140;230", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function Fp()
-  gg.setRanges(gg.REGION_C_BSS)
-  gg.searchNumber("2048D;4D;1F;1F;1D:30", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResultsCount()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("3000;5000;1024;1000::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(3472849)
-  gg.editAll("999999", gg.TYPE_FLOAT)
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-
-function Am()
-gg.clearResults()
-  gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
-  gg.searchNumber("2046820354;-336587221:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("2046820354", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("2046820353", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
-  gg.searchNumber("2015175168", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(6)
-  gg.editAll("0", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
-  gg.searchNumber("-476053504;-349478012:189", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("-476053504", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("-476053503;-476053504", gg.TYPE_DWORD)
-  gg.clearResults()
-gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function Al()
-gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("3.5;1;200;20::999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("3.5;1;200;20", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(300)
-  gg.editAll("-1.0e10", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("3.5;1;200;20::999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("3.5;1;200;20::959", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("-99999", gg.TYPE_FLOAT)
-  gg.clearResults()
-gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end 
-
-
-function Bs()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-  gg.clearResults()
-  gg.searchNumber("100F;1F;1,008,981,770D:99", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("-90", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-
-function G90T()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("0.5F;0.5F;0.00060000003F;0.99998998642F;0.5F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-local t = gg.getResults(100)
-for i, v in ipairs(t) do
-if v.flags == gg.TYPE_FLOAT then
-v.value = "2"
-v.freeze = true
-gg.addListItems(t)
-gg.clearResults()
-gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("16;32;40;48;40:41", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("36", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("╚»🇲🇲 𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 🇲🇲«╝")
-end
-end
-end
-
-----------
-
-function WC660()
-WH660()
-YLW660()
-end
-
-function MW()
-MN2 = gg.multiChoice({
-"ᴡʜ ᴍᴇᴅɪᴀᴛᴇᴋ ᴇxʏɴᴏs ᴋɪʀɪɴ + ᴄᴏʟᴏʀ",
-"ᴡʜ sɴᴀᴘᴅʀᴀɢᴏɴ + ᴄᴏʟᴏʀ ʟɪsᴛ",
-"⎋вαcк"}, nil, "┏🇲🇲𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 𝐕𝐢𝐩 🇲🇲\n┣👨‍✈ ᴘᴜʙɢ ᴍᴏʙɪʟᴇ 0.19.0")
-if MN2 == nil then
-else
-if MN2[1] == true then
-WHEXYMTK()
-end
-if MN2[2] == true then
-WHSNAP1()
-end
-if MN2[3] == true then
-HOME()
-end
-end
-PUBGMH = -1
-end
-
-
-function WHSNAP1()
-MN1 = gg.multiChoice({
-"  ғɪx ᴡᴀʟʟʜᴀᴄᴋ ʙʟɪɴᴋ",
-"  ғɪx ᴡᴀʟʟʜᴀᴄᴋ sᴄᴏᴘᴇ",
-"  ᴡᴀʟʟʜᴀᴄᴋ ᴀʟʟ ᴅᴇᴠɪᴄᴇ",
-"  ᴡᴀʟʟʜᴀᴄᴋ sᴅ400",
-"  ᴡᴀʟʟʜᴀᴄᴋ sᴅ410",
-"  ᴡᴀʟʟʜᴀᴄᴋ sᴅ415",
-"  ᴡᴀʟʟʜᴀᴄᴋ sᴅ425",
-"  ᴡᴀʟʟʜᴀᴄᴋ sᴅ430",
-"  ᴡᴀʟʟʜᴀᴄᴋ sᴅ435",
-"  ᴡᴀʟʟʜᴀᴄᴋ sᴅ450",
-"  ᴡᴀʟʟʜᴀᴄᴋ sᴅ615",
-"  ᴡᴀʟʟʜᴀᴄᴋ sᴅ625",
-"  ᴡᴀʟʟʜᴀᴄᴋ sᴅ626",
-"  ᴡᴀʟʟʜᴀᴄᴋ sᴅ636/50/25",
-"  ᴡᴀʟʟʜᴀᴄᴋ sᴅ653",
-"  ᴡᴀʟʟʜᴀᴄᴋ sᴅ660",
-"  ᴡᴀʟʟʜᴀᴄᴋ sᴅ665",
-"  ᴡᴀʟʟʜᴀᴄᴋ sᴅ670",
-"  ᴡᴀʟʟʜᴀᴄᴋ sᴅ710",
-"  ᴡᴀʟʟʜᴀᴄᴋ sᴅ800/801",
-"  ᴡᴀʟʟʜᴀᴄᴋ sᴅ820/821",
-"  ᴡᴀʟʟʜᴀᴄᴋ sᴅ835",
-"  ᴡᴀʟʟʜᴀᴄᴋ sᴅ845",
-"  ᴡᴀʟʟʜᴀᴄᴋ sᴅ855",
-"  ᴡᴀʟʟʜᴀᴄᴋ ᴀʟʟ sɴᴀᴘᴅʀᴀɢᴏɴ",
-"  ᴄᴏʟᴏᴜʀ ᴀʟʟ ᴅᴇᴠɪᴄᴇ",
-"  ᴄᴏʟᴏᴜʀ ʀᴇᴅ ʜᴅʀ",
-"  ᴄᴏʟᴏᴜʀ ʏᴇʟʟᴏᴡ ʜᴅʀ",
-"  ᴄᴏʟᴏᴜʀ ʙʟᴜᴇ ʜᴅʀ",
-"  ᴄᴏʟᴏᴜʀ ᴘᴜʀᴘʟᴇ ʜᴅʀ",
-"  ᴄᴏʟᴏᴜʀ ʀᴇᴅ",
-"  ᴄᴏʟᴏᴜʀ ᴘʟᴜᴛᴏ",
-"  ᴄᴏʟᴏᴜʀ ʙʟᴜᴇ",
-"  ᴄᴏʟᴏᴜʀ ʏᴇʟʟᴏᴡ",
-"  ᴄᴏʟᴏᴜʀ ɢʀᴇᴇɴ",
-"  ᴄᴏʟᴏᴜʀ ᴘɪɴᴋ",
-"  ᴄᴏʟᴏᴜʀ ᴘᴜʀᴘʟᴇ",
-"  ᴄᴏʟᴏᴜʀ ᴍɪx",
-"  ᴄᴏʟᴏᴜʀ ʀᴀɪɴʙᴏᴡ",
-"  ᴄᴏʟᴏᴜʀ ᴘᴜʀᴘʟᴇ 410",
-"  ᴄᴏʟᴏᴜʀ sᴅ400/410 ɢʀᴇᴇɴ",
-"  ᴄᴏʟᴏᴜʀ sᴅ400+ ʏᴇʟʟᴏᴡ",
-"  ᴄᴏʟᴏᴜʀ sᴅ425 ʀᴇᴅ ( ɴᴇᴡ )",
-"  ᴄᴏʟᴏᴜʀ sᴅ425 ʏᴇʟʟᴏᴡ",
-"  ᴄᴏʟᴏᴜʀ sᴅ425 ɢʀᴇᴇɴ",
-"  ᴄᴏʟᴏᴜʀ sᴅ425 ᴍɪx",
-"  ᴄᴏʟᴏᴜʀ sᴅ425 ᴘᴜʀᴘʟᴇ",
-"  ᴄᴏʟᴏᴜʀ sᴅ615 ʏᴇʟʟᴏᴡ",
-"  ᴄᴏʟᴏᴜʀ sᴅ615 ɢʀᴇᴇɴ",
-"  ᴄᴏʟᴏᴜʀ sᴅ615 ʙʟᴜᴇ",
-"  ᴄᴏʟᴏᴜʀ sᴅ660 ʀᴇᴅ",
-"  ᴄᴏʟᴏᴜʀ sᴅ660 ʏᴇʟʟᴏᴡ",
-"  ᴄᴏʟᴏᴜʀ sᴅ660 ɢʀᴇᴇɴ",
-"  ᴄᴏʟᴏᴜʀ sᴅ665 ʙʟᴜᴇ",
-"  ᴄᴏʟᴏᴜʀ sᴅ665 ɢʀᴇᴇɴ",
-"  ᴄᴏʟᴏᴜʀ sᴅ665 ʀᴇᴅ",
-"  ᴄᴏʟᴏᴜʀ sᴅ665 ʏᴇʟʟᴏᴡ",
-"  ᴄᴏʟᴏᴜʀ sᴅ845 ʀᴇᴅ",
-"  ᴄᴏʟᴏᴜʀ sᴅ845 ʏᴇʟʟᴏᴡ",
-"  ᴄᴏʟᴏᴜʀ sᴅ845 ɢʀᴇᴇɴ",
-"  ᴄᴏʟᴏᴜʀ sᴅ845 ʙʟᴜᴇ",
-"  ᴄᴏʟᴏᴜʀ sᴅ855 ɢʀᴇᴇɴ",
-"  ᴄᴏʟᴏᴜʀ sᴅ855 ʏᴇʟʟᴏᴡ",
-"  ᴄᴏʟᴏᴜʀ sᴅ855 ʀᴇᴅ",
-"  ᴄᴏʟᴏᴜʀ sᴅ855 ʙʟᴜᴇ",
-"⎋вαcк"}, nil, "┏🇲🇲𝐆𝐫𝐞𝐞𝐧 𝐅𝐨𝐫𝐜𝐞 𝐄𝐦𝐩𝐢𝐫𝐞 𝐕𝐢𝐩 🇲🇲\n┣👨‍✈ ᴘᴜʙɢ ᴍᴏʙɪʟᴇ 0.19.0")
-if MN1 == nil then
-else
-if MN1[1] == true then
-FBlink()
-end
-if MN1[2] == true then
-FScope()
-end
-if MN1[3] == true then
-WHALL()
-end
-if MN1[4] == true then
-WH400()
-end
-if MN1[5] == true then
-WH410()
-end
-if MN1[6] == true then
-WH415()
-end
-if MN1[7] == true then
-WH425()
-end
-if MN1[8] == true then
-WH430()
-end
-if MN1[9] == true then
-WH435()
-end
-if MN1[10] == true then
-WH450()
-end
-if MN1[11] == true then
-WH615()
-end
-if MN1[12] == true then
-WH625()
-end
-if MN1[13] == true then
-WH626()
-end
-if MN1[14] == true then
-WH636()
-end
-if MN1[15] == true then
-WH653()
-end
-if MN1[16] == true then
-WH660()
-end
-if MN1[17] == true then
-WH665()
-end
-if MN1[18] == true then
-WH670()
-end
-if MN1[19] == true then
-WH710()
-end
-if MN1[20] == true then
-WH800()
-end
-if MN1[21] == true then
-WH820()
-end
-if MN1[22] == true then
-WH835()
-end
-if MN1[23] == true then
-WH845()
-end
-if MN1[24] == true then
-WH855()
-end
-if MN1[25] == true then
-WHSNAP()
-end
-if MN1[26] == true then
-CALL()
-end
-if MN1[27] == true then
-REDHDR()
-end
-if MN1[28] == true then
-YELLOWHDR()
-end
-if MN1[29] == true then
-BLUEHDR()
-end
-if MN1[30] == true then
-PURPLEHDR()
-end
-if MN1[31] == true then
-CLRRED()
-end
-if MN1[32] == true then
-CLRPLUTO()
-end
-if MN1[33] == true then
-CLRBL()
-end
-if MN1[34] == true then
-CLRYLW()
-end
-if MN1[35] == true then
-CLRGRN()
-end
-if MN1[36] == true then
-CLRPINK()
-end
-if MN1[37] == true then
-CLRPLE()
-end
-if MN1[38] == true then
-CLRMIX()
-end
-if MN1[39] == true then
-CLRRBW()
-end
-if MN1[40] == true then
-PURPLE410()
-end
-if MN1[41] == true then
-GRN400()
-end
-if MN1[42] == true then
-YLLW400()
-end
-if MN1[43] == true then
-RED425()
-end
-if MN1[44] == true then
-YELLOW425()
-end
-if MN1[45] == true then
-GRN425()
-end
-if MN1[46] == true then
-MIX425()
-end
-if MN1[47] == true then
-PLE425()
-end
-if MN1[48] == true then
-YLW615()
-end
-if MN1[49] == true then
-GRN615()
-end
-if MN1[50] == true then
-BLUE615()
-end
-if MN1[51] == true then
-RED660()
-end
-if MN1[52] == true then
-YLW660()
-end
-if MN1[53] == true then
-GRN660()
-end
-if MN1[54] == true then
-BLUE665()
-end
-if MN1[55] == true then
-GRN665()
-end
-if MN1[56] == true then
-RED665()
-end
-if MN1[57] == true then
-YLW665()
-end
-if MN1[58] == true then
-RED845()
-end
-if MN1[59] == true then
-YLW845()
-end
-if MN1[60] == true then
-GRN845()
-end
-if MN1[61] == true then
-BLUE845()
-end
-if MN1[62] == true then
-GREEN855()
-end
-if MN1[63] == true then
-YELLOW855()
-end
-if MN1[64] == true then
-RED855()
-end
-if MN1[65] == true then
-BLUE855()
-end
-if MN1[66] == true then
-HOME()
-end
-end
-PUBGMH = -1
-end
-function BLUE665()
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("32.773D;50.331.648D;1.039.516.303D;1.025.761.280D;1.123.024.896D;1.050.800.659D;1.065.353.216D;1.170.939.904D;1.050.222.592D;1.058.422.784D::177", 4, false, 536870912, 0, -1)
-gg.searchNumber("32773", 4, false, 536870912, 0, -1)
-gg.getResults(25)
-gg.editAll("7", 4)
-gg.clearResults()
-gg.toast("COLOR 665 Blue")
-end
-function GRN665()
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("32769", 4, false, 536870912, 0, -1)
-gg.refineNumber("32769", 4, false, 536870912, 0, -1)
-gg.refineAddress("518")
-gg.getResults(9999)
-gg.editAll("32772", 4)
-gg.clearResults()
-gg.toast("COLOR 665 Green")
-end
-function RED665()
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("8196D;8192D;8200D", 4, false, 536870912, 0, -1)
-gg.refineNumber("8200", 4, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.editAll("8199", 4)
-gg.clearResults()
-gg.toast("Red Color Activated")
-end
-function YLW665()
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("8,200D;1,194,380,045D;786,443D:9", 4, false, 536870912, 0, -1)
-gg.searchNumber("8200", 4, false, 536870912, 0, -1)
-gg.getResults(20)
-gg.editAll("6", 4)
-gg.clearResults()
-gg.toast("COLOR 665 Yellow")
-end
-function WH665()
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("2.0F;1.66231134e-19F;0.0F;9.21942286e-41F;7.23035964e-15F;2.37549734116F;4.40284136e-29F;2.25000905991F;3.58159416e-39F;1.66433004e10F::37", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.refineAddress("200")
-gg.getResults(25)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("2.0F;-1.0F;0.0F;1.0F;-127.0F;0.24022650719F;0.69314718246F;0.00999999978F;-0.0F;0.0F::37", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.refineAddress("930")
-gg.getResults(25)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.refineAddress("A8C")
-gg.getResults(25)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.refineAddress("B10")
-gg.getResults(25)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.refineAddress("588")
-gg.getResults(25)
-gg.editAll("999", 16)
-gg.clearResults()
-gg.toast("Wallhack 665 Aktif")
-end
-function GREEN855()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("0A0")
-gg.getResults(10)
-gg.editAll("8199", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Color SD 855 Green Activated")
-end
-function YELLOW855()
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("8200", 4, false, 536870912, 0, -1)
-gg.refineAddress("328", -1, 4, 536870912, 0, -1)
-gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.editAll("6", 4)
-gg.toast("Color SD 855 Yellow Aktif")
-end
-function BLUE855()
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("8200", 4, false, 536870912, 0, -1)
-gg.refineAddress("328", -1, 4, 536870912, 0, -1)
-gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.editAll("6", 4)
-gg.toast("Color SD855 Blue Body Activated")
-end
-function RED855()
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("0A8", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(5)
-gg.editAll("7", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Color SD855 Red Activated")
-end
-function YLLW400()
-gg.setRanges(gg.REGION_BAD)
-gg.setRanges(131072)
-gg.searchNumber("856128", 4, false, 536870912, 0, -1)
-gg.getResults(4)
-gg.editAll("856118", 4)
-gg.clearResults()
-gg.searchNumber("196610;1280;196608:25", 4, false, 536870912, 0, -1)
-gg.searchNumber("196608", 4, false)
-gg.getResults(10)
-gg.editAll("9999", 4)
-gg.clearResults()
-gg.toast("Color 400+ Yellow")
-end
-function WHALL()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("135,215D;4,140D;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("130", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("194D;3.7615819e-37;2;-1;1;-127::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("130", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("WallHack All Device")
-end
-function PURPLE410()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("1.1490647e-41;1.0863203e-19::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1.0863203e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(30)
-gg.editAll("1.0863203e-25", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Purple Sd 410")
-end
-function BLUE845()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(15)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.toast("COLOR 845 BLUE")
-end
-function GRN845()
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("8201", 4, false, 536870912, 0, -1)
-gg.searchNumber("8201", 4, false, 536870912, 0, -1)
-gg.getResults(15)
-gg.editAll("7", 4)
-gg.clearResults()
-gg.toast("COLOR 845 GREEN")
-end
-function YLW845()
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("8200", 4, false, 536870912, 0, -1)
-gg.refineAddress("328", -1, 4, 536870912, 0, -1)
-gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.editAll("6", 4)
-gg.toast("COLOR 845 YELLOW")
-end
-function RED845()
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("1,661,566,999;96;539,246,604;8200::", 4, false, 536870912, 0, -1)
-gg.searchNumber("8200", 4, false, 536870912, 0, -1)
-gg.getResults(10)
-gg.editAll("7", 4)
-gg.toast("Color Red 845 Activated")
-end
-function YLW615()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8,192D;256D;65,540D;12D;8200D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8,192D;256D;65,540D;12D;8200D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8,192D;256D;65,540D;12D;8200D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.toast("Colour SD615 Yellow activated!")
-end
-
-function GRN615()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8.201D;8.202D;538.968.081D:29")
-gg.searchNumber("8201;8202;538968081")
-gg.getResults(5)
-gg.editAll("8", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Colour Green SD615 activated!")
-end
-
-function BLUE615()
-gg.setRange(gg.REGION_BAD)
-gg.searchNumber("1D;2D;91D:25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1;2;91", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(5)
-gg.editAll("5", gg.TYPE_DWORD)
-gg.clearReDultD()
-gg.toast("Colour Blue SD615 activated!")
-end
-
-function GRN660()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("32769", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("32769", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("518")
-gg.getResults(9999)
-gg.editAll("32772", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Colour Green SD660 activated!")
-end
-function RED660()
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("1,080,033,292D;786,441D;8,200D::", 4, false, 536870912, 0, -1)
-gg.searchNumber("8200", 4, false, 536870912, 0, -1)
-gg.getResults(10)
-gg.editAll("7", 4)
-gg.toast("Colour Red SD660 activated!")
-end
-function YLW660()
-gg.clearResults()
-gg.searchNumber("ALI(g.ALI[331])", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("ALI(g.ALI[332])", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
-for i, i in ipairs((gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil))) do
-if i.flags == gg.TYPE_DWORD then
-i.value = "ALI(g.ALI[333])"
-i.freeze = true
-end
-end
-gg.addListItems((gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)))
-gg.toast("Colour Yellow SD660 New By Sanji")
-end
-function PLE425()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("856128", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(4)
-gg.editAll("99", gg.TYPE_DWORD)
-gg.clearResults()
-gg.searchNumber("200761;92;8204;856124;108;196610:409", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.editAll("5555", gg.TYPE_DWORD)
-gg.toast("Aktif")
-end
-function MIX425()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("856128", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(4)
-gg.editAll("99", gg.TYPE_DWORD)
-gg.clearResults()
-gg.searchNumber("200761;92;8204;856124;108;196610:409", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.editAll("1", gg.TYPE_DWORD)
-gg.toast("Colour Mix")
-end
-function GRN425()
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("4060000BhA;0000200ChA", 4, false, 536870912, 0, -1)
-gg.refineNumber("8204", 4, false, 536870912, 0, -1)
-gg.getResults(1000)
-gg.editAll("74", 4)
-gg.clearResults()
-gg.toast("Colour Green SD425 activated! ")
-end
-function YELLOW425()
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("32,769D;1,086,324,737D;68D;538,968,069D;8,204D:17", 4, false, 536870912, 0, -1)
-gg.refineNumber("8204", 4, false, 536870912, 0, -1)
-gg.getResults(10)
-gg.editAll("28", 4)
-gg.clearResults()
-gg.toast("Colour Yellow SD425 activated!")
-end
-function RED425()
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("200,761;92;8,204;856,124;108;196,610:409", 4, false, 536870912, 0, -1)
-gg.refineNumber("8204", 4, false, 536870912, 0, -1)
-gg.getResults(3)
-gg.editAll("8203", 4)
-gg.toast("Wallhack Color Red Activated!")
-end
-function CLRRBW()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("1.1490647e-41;1.0863203e-19::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1.0863203e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(30)
-gg.editAll("1.0863203e-25", gg.TYPE_FLOAT)
-gg.toast("Colour Rainbow activated!")
-end
-function CLRMIX()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("1.3912525e-19F;8200;96", gg.TYPE_DWORD, false)
-gg.searchNumber("8200", gg.TYPE_DWORD, false)
-gg.getResults(10)
-gg.editAll("8205", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Colour Mix activated!")
-end
-function CLRPLE()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("32769;768;-2134900730", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("32769", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("51781", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Colour Purple activated!")
-end
-function CLRPINK()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("69,778D;1,669,332,992D;10D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("10", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(21)
-gg.editAll("32777", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("69,778D;1,669,332,992D;12D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("12", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(21)
-gg.editAll("32777", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Colour Pink!")
-end
-function CLRGRN()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("32,769;-2,134,900,724:21", gg.TYPE_DWORD, false)
-gg.searchNumber("32,769", gg.TYPE_DWORD, false)
-gg.getResults(10)
-gg.editAll("32780", gg.TYPE_DWORD)
-gg.toast("Colour Green activated!")
-end
-function CLRYLW()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("128;786,441;8,200;786,443:25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(5)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Yellow Color Activated")
-end
-function CLRBL()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("1.3912525e-19F;8200;96", gg.TYPE_DWORD, false)
-gg.searchNumber("8200", gg.TYPE_DWORD, false)
-gg.getResults(10)
-gg.editAll("8202", gg.TYPE_DWORD)
-gg.toast("Color Blue")
-end
-function CLRRED()
-gg.clearResults()
-gg.searchNumber("8,196D;8,192D;8,200D::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("7", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Colour Red activated!")
-end
-function CLRPLUTO()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8,192D;256D;8200D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(20)
-gg.editAll("4", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Color Pluto")
-end
-function PURPLEHDR()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8,196D; 256D; 8,204D; 256D; 8,200D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8,200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(12)
-gg.editAll("16", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Colour Purple HDR activated!")
-end
-function BLUEHDR()
-gg.setRanges(gg.REGION_BAD)
-gg.clearResults()
-gg.searchNumber("1,661,337,615D;8,200D;1,194,380,049D:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(30)
-gg.editAll("66", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Colour Blue HDR activated!")
-end
-function YELLOWHDR()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("856128", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(4)
-gg.editAll("856140", gg.TYPE_DWORD)
-gg.clearResults()
-gg.searchNumber("196610;1280;196608:25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("196608", gg.TYPE_DWORD, false)
-gg.getResults(10)
-gg.editAll("9999", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Colour Yellow HDR activated!")
-end
-function REDHDR()
-gg.clearResults()
-gg.searchNumber("8,196D;8,192D;8,200D::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("7", gg.TYPE_DWORD)
-gg.toast("Colour Red HDR activated!")
-end
-function GRN400()
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("4060000BhA;0000200ChA", 4, false, 536870912, 0, -1)
-gg.refineNumber("8204", 4, false, 536870912, 0, -1)
-gg.getResults(1000)
-gg.editAll("74", 4)
-gg.clearResults()
-gg.toast("Color GRN SD400 activated!")
-end
-function CALL()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8200;96", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("8202", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast(" Blue & Green Body Color activated")
-end
-function WHSNAP()
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("2;1.8947657e-40;5.8013756e-42", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("2.718519e-43;3.7615819e-37;2;-1;1;-127", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack All Snapdragon activated!")
-end
-function WH855()
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("95D;2;9.2194229e-41::100", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.searchNumber("2;-1;0;1;-127;0.24022650719;0.69314718246;0.00999999978::30", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.toast("Wallhack SD855 activated!")
-end
-function WH845()
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("95D;2;9.2194229e-41::100", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(6)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.searchNumber("5.201992e21;2.25000452995;2;1.6623054e-19", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(4)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.searchNumber("2;-1;0;1;-127;0.24022650719;0.69314718246;0.00999999978::30", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(10)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.toast(" Wallhack SD845 activated")
-end
-function WH835()
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", 16, false, 536870912, 0, -1)
-gg.searchNumber(2, 16, false, 536870912, 0, -1)
-gg.getResults(30)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", 16, false, 536870912, 0, -1)
-gg.searchNumber(2, 16, false, 536870912, 0, -1)
-gg.getResults(30)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("7.1746481e-43;1.0842022e-19;94.015625;7.0776718e-15;2::", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(5)
-gg.editAll("9999", 16)
-gg.toast("Wallhack SD835 V1 activated!")
-end
-function WH820()
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("135,215D;4,140D;3.7615819e-37;2::", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(10)
-gg.editAll("130", 16)
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("194D;3.7615819e-37;2;-1;1;-127::", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(10)
-gg.editAll("130", 16)
-gg.clearResults()
-gg.toast("Wallhack SD820/821 activated!")
-end
-function WH800()
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("5.1097599e21;2.0;1.6623071e-19;3.6734297e-39;1.66433e10::17", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(30)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.searchNumber("2.0;-1.0;0.0;1.0;-127.0::17", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(30)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.toast("Wallhack SD800/801 activated!")
-end
-function WH710()
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("95D;2;9.2194229e-41::100", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(6)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.searchNumber("5.201992e21;2.25000452995;2;1.6623054e-19", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(4)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.searchNumber("2;-1;0;1;-127;0.24022650719;0.69314718246;0.00999999978::30", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(10)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.toast("Wallhack SD710 activated!")
-end
-function WH670()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("200")
-gg.getResults(999)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("930")
-gg.getResults(999)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD670 activated!")
-end
-function WH660()
-gg.setRanges(gg.REGION_BAD)
-gg.clearResults()
-gg.searchNumber("5.8013756e-42;4.814603e21;3.7615819e-37;-0.0;2.0:69", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(30)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(30)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD660 activated!")
-end
-function WH636()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(30)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(30)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD636/650 activated!")
-end
-function WH653()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.clearResults()
-gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(30)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(30)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD653 activated!")
-end
-function WH626()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("5.1097599e21;2.0;1.6623071e-19;3.6734297e-39;1.66433e10::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(30)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("2.0;-1.0;0.0;1.0;-127.0::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(30)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD626 activated!")
-end
-function WH625()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(30)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(30)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD625 activated!")
-end
-function WH615()
-gg.toast("Activate again if it doesn't work!")
-gg.setRanges(gg.REGION_C_HEAP)
-gg.searchNumber("3.2229865e-43;2.0;-1.0;-1.0;2.0:145", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("122", gg.TYPE_FLOAT)
-gg.toast("Wallhack SD615 V1 activated!")
-end
-function WH450()
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("4,140D;4.7408166e21F;4.7223665e21;0D;0D;0D;0D;0D;0D;-0.0F;2.0F", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(30)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("2.718519e-43;2.0F;-1.0F;1.0F;-127F;0.24022650719F;-0.0", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(30)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.toast("Wallhack SD450 activated!")
-end
-function WH435()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("3.2229865e-43F;2.0F;-1.0F;-1.0F;2.0F:145", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(360)
-gg.editAll("150", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("27;15;26;23;1,073,741,824;24;-1,082,130,432:61", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1,073,741,824", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("1,123,024,896", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("2;3.7615819e-37;4.814603e21;4.7408149e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(20)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("2;3.7615819e-37;1.3912552e-19;4.9252829e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(20)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(20)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD435 V1 activated!")
-end
-function WH430()
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("2;1.8947657e-40;5.8013756e-42", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(999)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("2.718519e-43;3.7615819e-37;2;-1;1;-127", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(999)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD430 activated!")
-end
-function WH425()
-gg.clearResults()
-gg.setRanges(4)
-gg.searchNumber("2.9427268e-44;2.0;3.0828566e-44;-1.0;3.2229865e-44;3.3631163e-44;3.643376e-44", 16, false, 536870912, 0, -1)
-gg.refineNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.searchNumber("3.1529215e-43;2.0F;3.1669345e-43F;3.1809475e-43:49", 16, false, 536870912, 0, -1)
-gg.refineNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.toast("Wallhack SD425 activated!")
-end
-function WH415()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_HEAP)
-gg.searchNumber("228;1,073,741,824;1,073,741,824;229;-1,082,130,432:29", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1,073,741,824", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(30)
-gg.editAll("1,123,024,896", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_HEAP)
-gg.searchNumber("3.3631163e-44;2.0;3.5032462e-44;-1.0;3.643376e-44;3.7835059e-44;-1.0;3.9236357e-44;4.0637655e-44;1.0;-127.0:129", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("3.1809475e-43;3.1949605e-43;2.0;3.2089735e-43:53", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Wallhack SD415 activated!")
-end
-function WH410()
-gg.clearResults()
-gg.setRanges(1)
-gg.searchNumber("3.1949605e-43;3.1809475e-43;2.0;3.2089735e-43", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.editAll("150", 16)
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("8204;8205;1,194,344,451", 4, false, 536870912, 0, -1)
-gg.searchNumber("8204", 4, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.editAll("15", 4)
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("1,669,693,440;8205", 4, false, 536870912, 0, -1)
-gg.searchNumber("8205", 4, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.editAll("8204", 4)
-gg.clearResults()
-gg.toast("Wallhack SD410 activated!")
-end
-function WH400()
-gg.clearResults()
-gg.setRanges(4)
-gg.searchNumber("228;1,073,741,824;1,073,741,824;229;-1,082,130,432:29", 4, false, 536870912, 0, -1)
-gg.searchNumber("1,073,741,824", 4, false, 536870912, 0, -1)
-gg.getResults(30)
-gg.editAll("1,123,024,896", 4)
-gg.clearResults()
-gg.setRanges(4)
-gg.searchNumber("3.3631163e-44;2.0;3.5032462e-44;-1.0;3.643376e-44;3.7835059e-44;-1.0;3.9236357e-44;4.0637655e-44;1.0;-127.0:129", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.toast("Wallhack SD400 activated!")
-end
-
-function FScope()
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(3)
-gg.editAll("2.001", gg.TYPE_FLOAT)
-gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(3)
-gg.editAll("2.001", gg.TYPE_FLOAT)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Fix Wallhack Scope activated!")
-end
-function FBlink()
-gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
-gg.searchNumber("5.2806111e-40;6.50000333786;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(20)
-gg.editAll("9999", gg.TYPE_FLOAT)
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("1.1202011e-19;1.1202015e-19;3.7615819e-37;255.0;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(20)
-gg.editAll("9999", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Fix Wallhack Blink activated!")
-end
-
-
-function COLORHACK()
-  CHACKKK1 = gg.choice({
-    "❏ ᴄᴏʟᴏʀ ᴀʟʟ ᴅᴇᴠɪᴄᴇ",
-    "❏ ᴄᴏʟᴏʀ ᴇxʏɴᴏs",
-    "❏ ᴄᴏʟᴏʀ ʜᴅʀ",
-    "❏ ᴄᴏʟᴏʀ ᴋɪʀɪɴ",
-    "❏ ᴄᴏʟᴏʀ ᴍᴇᴅɪᴀᴛᴇᴋ",
-    "❏ ᴄᴏʟᴏʀ ᴠᴇʜɪᴄʟᴇ",
-    "❏ ᴄᴏʟᴏʀ sɴᴀᴘ 400",
-    "❏ ᴄᴏʟᴏʀ sɴᴀᴘ 410",
-    "❏ ᴄᴏʟᴏʀ sɴᴀᴘ 415",
-    "❏ ᴄᴏʟᴏʀ sɴᴀᴘ 425",
-    "❏ ᴄᴏʟᴏʀ sɴᴀᴘ 430",
-    "❏ ᴄᴏʟᴏʀ sɴᴀᴘ 435",
-    "❏ ᴄᴏʟᴏʀ sɴᴀᴘ 450",
-    "❏ ᴄᴏʟᴏʀ sɴᴀᴘ 610",
-    "❏ ᴄᴏʟᴏʀ sɴᴀᴘ 615",
-    "❏ ᴄᴏʟᴏʀ sɴᴀᴘ 625",
-    "❏ ᴄᴏʟᴏʀ sɴᴀᴘ 636",
-    "❏ ᴄᴏʟᴏʀ sɴᴀᴘ 650",
-    "❏ ᴄᴏʟᴏʀ sɴᴀᴘ 653",
-    "❏ ᴄᴏʟᴏʀ sɴᴀᴘ 660",
-    "❏ ᴄᴏʟᴏʀ sɴᴀᴘ 665",
-    "❏ ᴄᴏʟᴏʀ sɴᴀᴘ 675",
-    "❏ ᴄᴏʟᴏʀ sɴᴀᴘ 710",
-    "❏ ᴄᴏʟᴏʀ sɴᴀᴘ 712",
-    "❏ ᴄᴏʟᴏʀ sɴᴀᴘ 835",
-    "❏ ᴄᴏʟᴏʀ sɴᴀᴘ 845",
-    "❏ ᴄᴏʟᴏʀ sɴᴀᴘ 855",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if CHACKKK1 == nil then
-  else
-    if CHACKKK1 == 1 then
-      cr1()
-    end
-    if CHACKKK1 == 2 then
-      cr2()
-    end
-    if CHACKKK1 == 3 then
-      cr3()
-    end
-    if CHACKKK1 == 4 then
-      cr4()
-    end
-    if CHACKKK1 == 5 then
-      cr5()
-    end
-    if CHACKKK1 == 6 then
-      cr6()
-    end
-    if CHACKKK1 == 7 then
-      cr7()
-    end
-    if CHACKKK1 == 8 then
-      cr8()
-    end
-    if CHACKKK1 == 9 then
-      cr9()
-    end
-    if CHACKKK1 == 10 then
-      cr10()
-    end
-    if CHACKKK1 == 11 then
-      cr11()
-    end
-    if CHACKKK1 == 12 then
-      cr12()
-    end
-    if CHACKKK1 == 13 then
-      cr13()
-    end
-    if CHACKKK1 == 14 then
-      cr14()
-    end
-    if CHACKKK1 == 15 then
-      cr15()
-    end
-    if CHACKKK1 == 16 then
-      cr16()
-    end
-    if CHACKKK1 == 17 then
-      cr17()
-    end
-    if CHACKKK1 == 18 then
-      cr18()
-    end
-    if CHACKKK1 == 19 then
-      cr19()
-    end
-    if CHACKKK1 == 20 then
-      cr20()
-    end
-    if CHACKKK1 == 21 then
-      cr21()
-    end
-    if CHACKKK1 == 22 then
-      cr22()
-    end
-    if CHACKKK1 == 23 then
-      cr23()
-    end
-    if CHACKKK1 == 24 then
-      cr24()
-    end
-    if CHACKKK1 == 25 then
-      cr25()
-    end
-    if CHACKKK1 == 26 then
-      cr26()
-    end
-    if CHACKKK1 == 27 then
-      cr27()
-    end
-    if CHACKKK1 == 28 then
-      HOME()
-    end
-  end
-  PUBGMH = -1
-end
-
-function cr1()
-  CLRALLDEVICE1 = gg.multiChoice({
-    "❏ Color Red",
-    "❏ Color Yellow",
-    "❏ Color Green",
-    "❏ Color Blue",
-    "❏ Color White",
-    "❏ Color Pink",
-    "❏ Color Rainbow",
-    "• • •『 BACK 』• • •"
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-  if CLRALLDEVICE1 == nil then
-  else
-    if CLRALLDEVICE1[1] == true then
-      crldevice1()
-    end
-    if CLRALLDEVICE1[2] == true then
-      crldevice2()
-    end
-    if CLRALLDEVICE1[3] == true then
-      crldevice3()
-    end
-    if CLRALLDEVICE1[4] == true then
-      crldevice4()
-    end
-    if CLRALLDEVICE1[5] == true then
-      crldevice5()
-    end
-    if CLRALLDEVICE1[6] == true then
-      crldevice6()
-    end
-    if CLRALLDEVICE1[7] == true then
-      crldevice7()
-    end
-    if CLRALLDEVICE1[10] == true then
-      COLORHACK()
-    end
-  end
-  PUBGMH = -1
-end
-
-function crldevice1()
-  gg.clearResults()
-  gg.setRanges(131072)
-  gg.searchNumber("8,196D;8,192D;8,200D::", 4, false, 536870912, 0, -1)
-  gg.searchNumber("8200", 4, false, 536870912, 0, -1)
-  gg.getResults(10)
-  gg.editAll("7", 4)
-  gg.clearResults()
   gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 ")
 end
 
@@ -7982,7 +4226,7 @@ function cr2()
     "❏ ᴄᴏʟᴏʀ ᴇxʏɴᴏs 7870 ʀᴇᴅ",
     "❏ ɴᴇᴡ ᴄᴏʟᴏʀ ᴇxʏɴᴏs 7870 ʏᴇʟʟᴏᴡ",
     "❏ ᴄᴏʟᴏʀ ᴇxʏɴᴏs 8890 ʀᴇᴅ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
+    "• • •『 ʙᴀᴄᴋ 』• • •"
  }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
   if CHACK22 == nil then
   else
@@ -8142,7 +4386,7 @@ function cr3()
     "❏ ᴄᴏʟᴏʀ ʜᴅʀ ʀᴀɪɴʙᴏᴡ",
     "❏ ᴄᴏʟᴏʀ ʜᴅʀ ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ ʜᴅʀ ʏᴇʟʟᴏᴡ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
+    "• • •『 ʙᴀᴄᴋ 』• • •"
  }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
   if CLHDRAEVICE1 == nil then
   else
@@ -8249,7 +4493,7 @@ function cr4()
     "❏ ᴄᴏʟᴏʀ ᴋɪʀɪɴ 659 ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ ᴋɪʀɪɴ 710 ɢʀᴇᴇɴ",
     "❏ ᴄᴏʟᴏʀ ᴋɪʀɪɴ 710 ʏᴇʟʟᴏᴡ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
+    "• • •『 ʙᴀᴄᴋ 』• • •"
  }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
   if CHACK33 == nil then
   else
@@ -8395,7 +4639,7 @@ function cr5()
     "❏ ᴄᴏʟᴏʀ ᴍᴇᴅɪᴀᴛᴇᴋ ᴘ60 ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ ᴍᴇᴅɪᴀᴛᴇᴋ ᴘ60 ʏᴇʟʟᴏᴡ",
     "❏ ᴄᴏʟᴏʀ ᴍᴇᴅɪᴀᴛᴇᴋ ᴘ22 ʙʟᴜᴇ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
+    "• • •『 ʙᴀᴄᴋ 』• • •"
  }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
   if CHACK44 == nil then
   else
@@ -8572,9 +4816,8 @@ function cr6()
     "❏ ᴄᴏʟᴏʀ ᴠᴇʜɪᴄʟᴇ ʙʟᴜᴇ",
     "❏ ᴄᴏʟᴏʀ ᴠᴇʜɪᴄʟᴇ ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ ᴠᴇʜɪᴄʟᴇ ʏᴇʟʟᴏᴡ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
- }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
-
+    "• • •『 ʙᴀᴄᴋ 』• • •"
+   }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
   if CLRVECHILEICE1 == nil then
   else
     if CLRVECHILEICE1[1] == true then
@@ -8621,7 +4864,7 @@ function cr7()
   CLRSNAP4001 = gg.multiChoice({
     "❏ ᴄᴏʟᴏʀ 400 ɢʀᴇᴇɴ",
     "❏ ᴄᴏʟᴏʀ 400 ʏᴇʟʟᴏᴡ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
+    "• • •『 ʙᴀᴄᴋ 』• • •"
  }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
   if CLRSNAP4001 == nil then
   else
@@ -8670,7 +4913,7 @@ function cr8()
     "❏ ᴄᴏʟᴏʀ 410 ɢʀᴇᴇɴ",
     "❏ ᴄᴏʟᴏʀ 410 ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ 410 ʏᴇʟʟᴏᴡ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
+    "• • •『 ʙᴀᴄᴋ 』• • •"
  }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
   if CLRSNAP4101 == nil then
   else
@@ -8745,7 +4988,7 @@ end
 function cr9()
   CLRSNAP4151 = gg.multiChoice({
     "❏ ᴄᴏʟᴏʀ 415 ɢʀᴇᴇɴ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
+    "• • •『 ʙᴀᴄᴋ 』• • •"
  }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
   if CLRSNAP4151 == nil then
   else
@@ -8786,7 +5029,7 @@ function cr10()
     "❏ ᴄᴏʟᴏʀ 425 ᴍɪx",
     "❏ ᴄᴏʟᴏʀ 425 ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ 425 ʏᴇʟʟᴏᴡ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
+    "• • •『 ʙᴀᴄᴋ 』• • •"
  }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
   if CLRSNAP4251 == nil then
   else
@@ -8882,7 +5125,7 @@ function cr11()
   CLRSNAP4301 = gg.multiChoice({
     "❏ ᴄᴏʟᴏʀ 430 ɢʀᴇᴇɴ",
     "❏ ᴄᴏʟᴏʀ 430 ʀᴇᴅ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
+    "• • •『 ʙᴀᴄᴋ 』• • •"
  }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
   if CLRSNAP4301 == nil then
   else
@@ -8927,7 +5170,7 @@ function cr12()
     "❏ ɴᴇᴡ ᴄᴏʟᴏʀ 435 ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ 435 ʏᴇʟʟᴏᴡ",
     "❏ ɴᴇᴡ ᴄᴏʟᴏʀ 435 ᴡʜɪᴛᴇ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
+    "• • •『 ʙᴀᴄᴋ 』• • •"
  }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
   if CLRSNAP4351 == nil then
   else
@@ -8996,7 +5239,7 @@ function cr13()
     "❏ ᴄᴏʟᴏʀ 450 ɢʀᴇᴇɴ",
     "❏ ᴄᴏʟᴏʀ 450 ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ 450 ʏᴇʟʟᴏᴡ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
+    "• • •『 ʙᴀᴄᴋ 』• • •"
  }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
   if CLRSNAP4501 == nil then
   else
@@ -9053,7 +5296,7 @@ function cr14()
     "❏ ᴄᴏʟᴏʀ 610 ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ 610 ʏᴇʟʟᴏᴡ",
     "❏ ᴄᴏʟᴏʀ 610 ᴡʜɪᴛᴇ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
+    "• • •『 ʙᴀᴄᴋ 』• • •"
  }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
   if CLRSNAP6101 == nil then
   else
@@ -9110,7 +5353,7 @@ function cr15()
     "❏ ᴄᴏʟᴏʀ 615 ɢʀᴇᴇɴ",
     "❏ ᴄᴏʟᴏʀ 615 ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ 615 ʏᴇʟʟᴏᴡ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
+    "• • •『 ʙᴀᴄᴋ 』• • •"
  }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
   if CLRSNAP6151 == nil then
   else
@@ -9216,7 +5459,7 @@ function cr16()
     "❏ ɴᴇᴡ ᴄᴏʟᴏʀ 625 ɢʀᴇᴇɴ",
     "❏ ɴᴇᴡ ᴄᴏʟᴏʀ 625 ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ 625 ʏᴇʟʟᴏᴡ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
+    "• • •『 ʙᴀᴄᴋ 』• • •"
  }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
   if CLRSNAP6251 == nil then
   else
@@ -9289,7 +5532,7 @@ function cr17()
     "❏ ᴄᴏʟᴏʀ 636 ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ 636 ʏᴇʟʟᴏᴡ",
     "❏ ᴄᴏʟᴏʀ 636 ᴡʜɪᴛᴇ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
+    "• • •『 ʙᴀᴄᴋ 』• • •"
  }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
   if CLRSNAP6361 == nil then
   else
@@ -9365,7 +5608,7 @@ end
 function cr18()
   CLRSNAP6501 = gg.multiChoice({
     "❏ ᴄᴏʟᴏʀ 650 ʏᴇʟʟᴏᴡ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
+    "• • •『 ʙᴀᴄᴋ 』• • •"
  }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
   if CLRSNAP6501 == nil then
   else
@@ -9392,7 +5635,7 @@ end
 function cr19()
   CLRSNAP6531 = gg.multiChoice({
     "❏ ᴄᴏʟᴏʀ 653 ʏᴇʟʟᴏᴡ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
+    "• • •『 ʙᴀᴄᴋ 』• • •"
  }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
   if CLRSNAP6531 == nil then
   else
@@ -9421,7 +5664,7 @@ function cr20()
     "❏ ᴄᴏʟᴏʀ 660 ɢʀᴇᴇɴ",
     "❏ ᴄᴏʟᴏʀ 660 ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ 660 ʏᴇʟʟᴏᴡ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
+    "• • •『 ʙᴀᴄᴋ 』• • •"
  }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
   if CLRSNAP6601 == nil then
   else
@@ -9480,7 +5723,7 @@ function cr21()
     "❏ ᴄᴏʟᴏʀ 665 ɢʀᴇᴇɴ",
     "❏ ɴᴇᴡ ᴄᴏʟᴏʀ 665 ʀᴇᴅ ",
     "❏ ᴄᴏʟᴏʀ 665 ʏᴇʟʟᴏᴡ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
+    "• • •『 ʙᴀᴄᴋ 』• • •"
  }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
   if CLRSNAP6651 == nil then
   else
@@ -9556,7 +5799,7 @@ gg.alert("Graphic HD များအား HD ထားပြီးမှသု�
     "❏ ᴄᴏʟᴏʀ 675 ᴡʜɪᴛᴇ 👉 ɢʀᴀᴘʜɪᴄ ʜᴅ",
     "❏ ᴄᴏʟᴏʀ 675 ʏᴇʟʟᴏᴡ ᴠ1 👉 ɢʀᴀᴘʜɪᴄ sᴍᴏᴏᴛʜ",
     "❏ ᴄᴏʟᴏʀ 675 ʏᴇʟʟᴏᴡ ᴠ2 👉 ɢʀᴀᴘʜɪᴄ sᴍᴏᴏᴛʜ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
+    "• • •『 ʙᴀᴄᴋ 』• • •"
  }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
   if CLRSNAP6751 == nil then
   else
@@ -9673,7 +5916,7 @@ function cr23()
     "❏ ᴄᴏʟᴏʀ 710 ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ 710 ᴡʜɪᴛᴇ",
     "❏ ᴄᴏʟᴏʀ 710 ʏᴇʟʟᴏᴡ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
+    "• • •『 ʙᴀᴄᴋ 』• • •"
  }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
   if CLRSNAP7101 == nil then
   else
@@ -9758,7 +6001,7 @@ function cr24()
     "❏ ᴄᴏʟᴏʀ 712 ɢʀᴇᴇɴ",
     "❏ ɴᴇᴡ ᴄᴏʟᴏʀ 712 ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ 712 ʏᴇʟʟᴏᴡ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
+    "• • •『 ʙᴀᴄᴋ 』• • •"
  }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
   if CLRSNAP7121 == nil then
   else
@@ -9805,7 +6048,7 @@ function crl7123()
   gg.refineNumber("1703959;8200;8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
   gg.editAll("6;7;8199", gg.TYPE_DWORD)
-  gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
+  gg.toast("🅼r🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
 
 function cr25()
@@ -9813,8 +6056,8 @@ function cr25()
     "❏ ᴄᴏʟᴏʀ 835 ɢʀᴇᴇɴ",
     "❏ ᴄᴏʟᴏʀ 835 ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ 835 ʏᴇʟʟᴏᴡ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
-}, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+    "• • •『 ʙᴀᴄᴋ 』• • •"
+ }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
   if CLRSNAP8351 == nil then
   else
     if CLRSNAP8351[1] == true then
@@ -9872,7 +6115,7 @@ function cr26()
     "❏ ᴄᴏʟᴏʀ 845 ʀᴇᴅ",
     "❏ ᴄᴏʟᴏʀ 845 ʀᴇᴅ ʜᴅʀ",
     "❏ ɴᴇᴡ ᴄᴏʟᴏʀ 845 ʏᴇʟʟᴏᴡ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
+    "• • •『 ʙᴀᴄᴋ 』• • •"
  }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
   if CLRSNAP8451 == nil then
   else
@@ -9943,7 +6186,7 @@ function cr27()
     "❏ ᴄᴏʟᴏʀ 855 ʏᴇʟʟᴏᴡ 👉 ɢʀᴀᴘʜɪᴄ sᴍᴏᴏᴛʜ",
     "❏ ᴄᴏʟᴏʀ 855 ɢʀᴇᴇɴ 👉 ɢʀᴀᴘʜɪᴄ ʜᴅ",
     "❏ ᴄᴏʟᴏʀ 855 ᴡʜɪᴛᴇ 👉 ɢʀᴀᴘʜɪᴄ sᴍᴏᴏᴛʜ",
- "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
+    "• • •『 ʙᴀᴄᴋ 』• • •"
  }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
   if CLRSNAP8551 == nil then
   else
@@ -10014,6 +6257,504 @@ function crl8554()
   gg.clearResults()
   gg.toast("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁")
 end
+
+function skin()
+  MG = gg.multiChoice({
+    "👑  PHORHAA X SKIN 👑",
+    "😍 SKIN  ᴍ416 ʟɪᴢᴀʀᴅ ⚡ ",
+    "😍 SKIN  ᴍ416 ᴛʜᴇ ғᴏʟʟ 🎗️",
+    "🍋️SKIN  ALL GUN OP V1 👑",
+    "😍 SKIN  ᴍ416 ɢʟᴀᴄɪᴇʀ 👑",
+    "😈 ALL GUN SKIN OP V2 👑️ ",
+"⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
+}, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  ADMIN - MMK  sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁  💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143  " .. Time)
+
+  if MG == nil then
+  else
+    if MG[1] == true then
+      MG5()
+    end
+    if MG[2] == true then
+      MG6()
+    end
+    if MG[3] == true then
+      MG7()
+    end
+    if MG[4] == true then
+      MG8()
+    end
+    if MG[5] == true then
+      MG9()
+    end
+    if MG[6] == true then
+      MG10()
+    end
+    if MG[7] == true then
+      HOME()
+    end
+  end
+  PUBGMH = -1
+end
+
+
+function MG5()
+  gg.alert("✨make sure porhaa level skin Download in work shop and try not download game carsh✨")
+  function split(A0_201, A1_202)
+    local L2_203, L3_204, L4_205
+    L2_203 = 1
+    L3_204 = 1
+    L4_205 = {}
+    while true do
+      if not string.find(A0_201, A1_202, L2_203) then
+        L4_205[L3_204] = string.sub(A0_201, L2_203, string.len(A0_201))
+        break
+      end
+      L4_205[L3_204] = string.sub(A0_201, L2_203, string.find(A0_201, A1_202, L2_203) - 1)
+      L2_203 = string.find(A0_201, A1_202, L2_203) + string.len(A1_202)
+      L3_204 = L3_204 + 1
+    end
+    return L4_205
+  end
+  
+  function xgxc(A0_206, A1_207)
+    local L2_208, L3_209, L4_210, L5_211
+    L2_208 = 1
+    L3_209 = #A1_207
+    for i = 1, #A1_207 do
+      xgpy = A0_206 + A1_207[i].offset
+      xglx = A1_207[i].type
+      xgsz = A1_207[i].value
+      gg.setValues({
+        [1] = {
+          address = xgpy,
+          flags = xglx,
+          value = xgsz
+        }
+      })
+      xgsl = xgsl + 1
+    end
+  end
+  
+  function MoShinp(A0_212)
+    gg.clearResults()
+    gg.setRanges(A0_212[1].memory)
+    gg.searchNumber(A0_212[3].value, A0_212[3].type)
+    if gg.getResultCount() == 0 then
+      gg.toast(A0_212[2].name .. "")
+    else
+      gg.refineNumber(A0_212[3].value, A0_212[3].type)
+      gg.refineNumber(A0_212[3].value, A0_212[3].type)
+      gg.refineNumber(A0_212[3].value, A0_212[3].type)
+      if gg.getResultCount() == 0 then
+        gg.toast(A0_212[2].name .. "")
+      else
+        sl = gg.getResults(999999)
+        sz = gg.getResultCount()
+        xgsl = 0
+        if 999999 < sz then
+          sz = 999999
+        end
+        for i = 1, sz do
+          pdsz = true
+          for i = 4, #A0_212 do
+            if pdsz == true then
+              pysz = {}
+              pysz[1] = {}
+              pysz[1].address = sl[i].address + A0_212[i].offset
+              pysz[1].flags = A0_212[i].type
+              szpy = gg.getValues(pysz)
+              pdpd = A0_212[i].lv .. ";" .. szpy[1].value
+              szpd = split(pdpd, ";")
+              tzszpd = szpd[1]
+              pyszpd = szpd[2]
+              if tzszpd == pyszpd then
+                pdjg = true
+                pdsz = true
+              else
+                pdjg = false
+                pdsz = false
+              end
+            end
+          end
+          if pdjg == true then
+            szpy = sl[i].address
+            xgxc(szpy, MS)
+            xgjg = true
+          end
+        end
+        if xgjg == true then
+          gg.toast(A0_212[2].name .. "" .. xgsl .. "")
+        else
+          gg.toast(A0_212[2].name .. "")
+        end
+      end
+    end
+  end
+  
+  function SearchWrite(A0_213, A1_214, A2_215)
+    local L3_216, L4_217, L5_218, L6_219, L7_220, L8_221, L9_222, L10_223, L11_224, L12_225, L13_226, L14_227, L15_228, L16_229, L17_230, L18_231, L19_232, L20_233, L21_234
+  end
+  
+  function Assert(A0_235)
+    local L1_236
+    if A0_235 == nil or A0_235 == "" or A0_235 == "nil" then
+      L1_236 = false
+      do return L1_236 end
+      A0_235 = A0_235
+    end
+    L1_236 = true
+    return L1_236
+  end
+  
+  function mearrass(A0_237, A1_238)
+    if Assert(A0_237) and Assert(A1_238) then
+      do return true end
+      A0_237 = A0_237
+    end
+    return false
+  end
+  
+  function typetab(A0_239, A1_240)
+    local L2_241, L3_242, L4_243, L5_244, L6_245
+    L2_241 = {}
+    L3_242 = 1
+    L4_243 = #A0_239
+    for i = 1, #A0_239 do
+      if Assert(A0_239[i].type) then
+        table.insert(L2_241, i, A0_239[i].type)
+      elseif Assert(A1_240) then
+        table.insert(L2_241, i, A1_240)
+      else
+        return false
+      end
+    end
+    L3_242 = true
+    L4_243 = L2_241
+    return L3_242, L4_243
+  end
+  
+  function edit(A0_246, A1_247)
+    _om = A0_246[1].memory or A0_246[1][1]
+    _ov = A0_246[3].value or A0_246[3][1]
+    _on = A0_246[2].name or A0_246[2][1]
+    gg.clearResults()
+    gg.setRanges(_om)
+    gg.searchNumber(_ov, A0_246[3].type or A0_246[3][2])
+    sz = gg.getResultCount()
+    if 1 > sz then
+      gg.toast(_on .. "开启失败")
+    else
+      sl = gg.getResults(720)
+      for i = 1, sz do
+        ist = true
+        for i = 4, #A0_246 do
+          if ist == true and sl[i].value == _ov then
+            cd = {
+              {}
+            }
+            cd[1].address = sl[i].address + (A0_246[i].offset or A0_246[i][2])
+            cd[1].flags = A0_246[i].type or A0_246[i][3]
+            szpy = gg.getValues(cd)
+            cdlv = A0_246[i].lv or A0_246[i][1]
+            cdv = szpy[1].value
+            if cdlv == cdv then
+              pdjg = true
+              ist = true
+            else
+              pdjg = false
+              ist = false
+            end
+          end
+        end
+        if pdjg == true then
+          szpy = sl[i].address
+          for i = 1, #A1_247 do
+            xgpy = szpy + (A1_247[i].offset or A1_247[i][2])
+            xglx = A1_247[i].type or A1_247[i][3]
+            xgsz = A1_247[i].value or A1_247[i][1]
+            xgdj = A1_247[i].freeze or A1_247[i][4]
+            xgsj = {
+              {
+                address = xgpy,
+                flags = xglx,
+                value = xgsz
+              }
+            }
+            if xgdj == true then
+              xgsj[1].freeze = xgdj
+              gg.addListItems(xgsj)
+            else
+              gg.setValues(xgsj)
+            end
+          end
+          xgjg = true
+        end
+      end
+      if xgjg == true then
+        gg.toast(_on .. "Open successfully")
+      else
+        gg.toast(_on .. "Open failed")
+      end
+    end
+  end
+  
+  function SearchWrite(A0_248, A1_249, A2_250)
+    local L3_251, L4_252, L5_253, L6_254, L7_255, L8_256, L9_257, L10_258, L11_259, L12_260, L13_261, L14_262, L15_263, L16_264, L17_265, L18_266, L19_267, L20_268, L21_269
+  end
+  
+  function split(A0_270, A1_271)
+    local L2_272, L3_273, L4_274
+    L2_272 = 1
+    L3_273 = 1
+    L4_274 = {}
+    while true do
+      if not string.find(A0_270, A1_271, L2_272) then
+        L4_274[L3_273] = string.sub(A0_270, L2_272, string.len(A0_270))
+        break
+      end
+      L4_274[L3_273] = string.sub(A0_270, L2_272, string.find(A0_270, A1_271, L2_272) - 1)
+      L2_272 = string.find(A0_270, A1_271, L2_272) + string.len(A1_271)
+      L3_273 = L3_273 + 1
+    end
+    return L4_274
+  end
+  
+  function xgxc(A0_275, A1_276)
+    local L2_277, L3_278, L4_279, L5_280
+    L2_277 = 1
+    L3_278 = #A1_276
+    for i = 1, #A1_276 do
+      xgpy = A0_275 + A1_276[i].offset
+      xglx = A1_276[i].type
+      xgsz = A1_276[i].value
+      xgdj = A1_276[i].freeze
+      if xgdj == nil or xgdj == "" then
+        gg.setValues({
+          [1] = {
+            address = xgpy,
+            flags = xglx,
+            value = xgsz
+          }
+        })
+      else
+        gg.addListItems({
+          [1] = {
+            address = xgpy,
+            flags = xglx,
+            freeze = xgdj,
+            value = xgsz
+          }
+        })
+      end
+      xgsl = xgsl + 1
+      xgjg = true
+    end
+  end
+  
+  function xqmnb(A0_281)
+    gg.clearResults()
+    gg.setRanges(A0_281[1].memory)
+    gg.searchNumber(A0_281[3].value, A0_281[3].type)
+    if gg.getResultCount() == 0 then
+      gg.toast(A0_281[2].name .. "Open failed")
+    else
+      gg.refineNumber(A0_281[3].value, A0_281[3].type)
+      gg.refineNumber(A0_281[3].value, A0_281[3].type)
+      gg.refineNumber(A0_281[3].value, A0_281[3].type)
+      if gg.getResultCount() == 0 then
+        gg.toast(A0_281[2].name .. "Open failed")
+      else
+        sl = gg.getResults(999999)
+        sz = gg.getResultCount()
+        xgsl = 0
+        if 999999 < sz then
+          sz = 999999
+        end
+        for i = 1, sz do
+          pdsz = true
+          for i = 4, #A0_281 do
+            if pdsz == true then
+              pysz = {}
+              pysz[1] = {}
+              pysz[1].address = sl[i].address + A0_281[i].offset
+              pysz[1].flags = A0_281[i].type
+              szpy = gg.getValues(pysz)
+              pdpd = A0_281[i].lv .. ";" .. szpy[1].value
+              szpd = split(pdpd, ";")
+              tzszpd = szpd[1]
+              pyszpd = szpd[2]
+              if tzszpd == pyszpd then
+                pdjg = true
+                pdsz = true
+              else
+                pdjg = false
+                pdsz = false
+              end
+            end
+          end
+          if pdjg == true then
+            szpy = sl[i].address
+            xgxc(szpy, qmxg)
+          end
+        end
+        if xgjg == true then
+          gg.toast(A0_281[2].name .. "Opensuccess,Totalmodify" .. xgsl .. "Article data")
+        else
+          gg.toast(A0_281[2].name .. "Open failed")
+        end
+      end
+    end
+  end
+  
+  function Fxs(A0_282, A1_283, A2_284, A3_285, A4_286)
+    local L5_287, L6_288, L7_289, L8_290, L9_291, L10_292, L11_293, L12_294, L13_295, L14_296, L15_297, L16_298, L17_299, L18_300, L19_301, L20_302, L21_303, L22_304, L23_305
+  end
+  
+  qmnb = {
+    {memory = 32},
+    {
+      name = "@🅉🄰🄼🄰🅂🅄 🄶🄰🄼🄸🄽🄶"
+    },
+    {value = 1400129, type = 4},
+    {
+      lv = 519,
+      offset = 4,
+      type = 4
+    }
+  }
+  qmxg = {
+    {
+      value = 1405628,
+      offset = 0,
+      type = 4
+    }
+  }
+  xqmnb(qmnb)
+  gg.searchNumber("10300300", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10300300", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("1103003022", gg.TYPE_DWORD)
+  gg.alert("😍️PHORHA X SKIN ")
+end
+
+function MG6()
+  gg.alert("😍 make sure DOWNLOAD  SKIN IN GUN SHOP make sure download first and try 👑")
+  gg.searchNumber("10100400 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10100400 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("1101004086", gg.TYPE_DWORD)
+  gg.alert("♀️️ᴀᴄᴛɪᴠᴀᴛᴇᴅ 👻 ᴍ416 ʟɪᴢᴀʀᴅ")
+end
+
+function MG7()
+  gg.alert("😍 make sure DOWNLOAD SKIN IN GUN SHOP make sure download first and try 👑")
+  gg.searchNumber("10100400 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10100400 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("1101004062", gg.TYPE_DWORD)
+  gg.alert("👻ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴍ416 ᴛʜᴇ ғᴏʟʟ♂️ ")
+end
+
+function MG8()
+  gg.alert("😍 make sure DOWNLOAD ALL SKIN IN GUN SHOP make sure download first and try 👑")
+  gg.searchNumber("10100200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10100200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("1101002056", gg.TYPE_DWORD)
+  gg.alert("👻ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴍ416 ᴀᴜʀᴏʀᴀ♀️")
+  gg.clearResults()
+  gg.searchNumber("10100200", 4, false, 536870912, 0, -1)
+  gg.searchNumber("10100200", 4, false, 536870912, 0, -1)
+  gg.getResults(10)
+  gg.editAll("1101002056", 4)
+  gg.toast("ACTIVITIED")
+  gg.clearResults()
+  gg.clearResults()
+  gg.searchNumber("10100300", 4, false, 536870912, 0, -1)
+  gg.searchNumber("10100300", 4, false, 536870912, 0, -1)
+  gg.getResults(10)
+  gg.editAll("1101003057", 4)
+  gg.toast("ACTIVITIED")
+  gg.clearResults()
+  gg.clearResults()
+  gg.searchNumber("10200100", 4, false, 536870912, 0, -1)
+  gg.searchNumber("10200100", 4, false, 536870912, 0, -1)
+  gg.getResults(10)
+  gg.editAll("1102001004", 4)
+  gg.toast("ACTIVITIED")
+  gg.clearResults()
+  gg.searchNumber("10100500", 4, false, 536870912, 0, -1)
+  gg.getResults(100)
+  gg.editAll("1101005014", 4)
+  gg.clearResults()
+  gg.toast("ɢʀᴏᴢᴀ")
+  gg.searchNumber("10100600", 4, false, 536870912, 0, -1)
+  gg.getResults(100)
+  gg.editAll("1101006020", 4)
+  gg.clearResults()
+  gg.toast("ᴀᴜɢ")
+  gg.searchNumber("10100700", 4, false, 536870912, 0, -1)
+  gg.getResults(100)
+  gg.editAll("1101007003", 4)
+  gg.clearResults()
+  gg.toast("ϙʙᴢ")
+  gg.searchNumber("10100800", 4, false, 536870912, 0, -1)
+  gg.getResults(100)
+  gg.editAll("1101008029", 4)
+  gg.clearResults()
+  gg.toast("ᴍ762")
+  gg.searchNumber("10300300", 4, false, 536870912, 0, -1)
+  gg.getResults(100)
+  gg.editAll("1103001035", 4)
+  gg.clearResults()
+  gg.toast("ᴋᴀʀ98ᴋ")
+  gg.searchNumber("10300300", 4, false, 536870912, 0, -1)
+  gg.getResults(100)
+  gg.editAll("1103003032", 4)
+  gg.clearResults()
+  gg.toast("ᴀᴡᴍ")
+  gg.toast("ACTIVITIED")
+end
+
+function MG9()
+  gg.alert("😍 make sure DOWNLOAD SKIN IN GUN SHOP make sure download first and try 👑")
+  gg.searchNumber("10100400 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10100400 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("1101004046", gg.TYPE_DWORD)
+  gg.alert("❄️️ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴍ416 ɢʟᴀᴄɪᴇʀ😍️")
+end
+
+function MG10()
+  gg.alert("😍 make sure DOWNLOAD ALL SKIN IN GUN SHOP make sure download first and try 👑")
+  gg.searchNumber("10800400", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10800400", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll(" 1108004027 ", gg.TYPE_DWORD)
+  gg.alert("👻ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴘᴀɴ skin ɢʟᴀᴄɪᴇʀ♂️ ")
+  gg.searchNumber("10100100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10100100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("1101001089", gg.TYPE_DWORD)
+  gg.alert("👻ᴀᴄᴛɪᴠᴀᴛᴇᴅ.  ᴀᴋᴍ ɪᴄᴇ ❄️ ")
+  gg.searchNumber("10100300", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10100300", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("1101003057", gg.TYPE_DWORD)
+  gg.alert("👻ᴀᴄᴛɪᴠᴀᴛᴇᴅ  sᴄᴀʀ ʟ skin go tuch and change anything not see in game 100% see the skin♂️")
+  gg.searchNumber(" 10300100 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber(" 10300100 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll(" 1103001060 ", gg.TYPE_DWORD)
+  gg.alert("👻ᴀᴄᴛɪᴠᴀᴛᴇᴅ  ᴋᴀʀ ᴛᴇʀᴏʀ ғᴀɴɢ♀️")
+  gg.searchNumber("10200100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10200100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("1102001004", gg.TYPE_DWORD)
+  gg.alert("♀️ᴀᴄᴛɪᴠᴀᴛᴇᴅ  uzi skin ")
+end
+
+
 
 
 function CLOSE()
