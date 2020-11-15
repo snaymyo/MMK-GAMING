@@ -145,7 +145,6 @@ function HOME()
 "🎮 🅶🅰🅼🅴 🅷🅰🅲🅺 🎮",
 "📽 🅸🅿🅰🅳 🆅🅸🅴🆆 📽",
 " 🆑🅸🅽🆃🅰🅽🅰🆑",
-" 🆂🅺🅸🅽 🅷🅰🅲🅺",
 "⛔ EXIT SCRIPT ⛔ ",
     }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n\n ADMIN - MMK \n sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n 💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143 \n " .. Time)
   if SMN == nil then
@@ -171,10 +170,7 @@ function HOME()
    if SMN == 7 then
       rp()
     end
-   if SMN == 8 then
-      skin()
-    end
-      if SMN == 9 then
+      if SMN == 8 then
       CLOSE()
     end
   end
