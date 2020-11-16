@@ -271,8 +271,6 @@ SNMN = gg.multiChoice({
 " 🔘 AɪM ʙOT 🔘〘ɢAME〙",
 "🚙 UAᴢ CAʀ FʟY〘ɢAME〙",
 " 🚗 DACɪA CAʀ FʟY 🚗〘ɢAME〙",
-" Hɪɢʜ JUMP Oɴ〘ɢAME〙",
-" Hɪɢʜ JUMP OFF〘ɢAME〙",
 "⫷ ⫷ ʙᴀᴄᴋ ⫸ ⫸",
 }, nil, "🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n\n ADMIN - MMK \n sᴄʀɪᴘᴛ : 🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁 \n 💻𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 - https://m.me/mmkygn143 \n " .. Time)
  if SNMN == nil then
@@ -289,13 +287,7 @@ SNMN = gg.multiChoice({
     if SNMN[4] == true then
       Ca()
     end
-    if SNMN[5] == true then
-      HJ()
-    end
- if SNMN[6] == true then
-    HJJ()
-  end
-  if SNMN[7] == true then
+  if SNMN[5] == true then
     HOME()
   end
   end
