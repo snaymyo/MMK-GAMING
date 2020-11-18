@@ -1,5 +1,23 @@
 gg.alert("Wait For  Seconds")
-gg.sleep("3000")
+gg.sleep("10000")
+gg.setVisible(false)
+gg.toast("🆆🅴🅻🅲🅾🅼🅴 🆃🅾 🅼🅼🅺 🅶🅰🅼🅸🅽🅶")
+gg.sleep(2000)
+gg.alert("Password Is SNM")
+local Password = "SNM","YTT"
+local AskPassword = gg.prompt({ 
+ "🔒 Password ရိုက်ထည့်ပါ "
+},{""},{"text"})
+if not AskPassword then
+os.exit() 
+end 
+if AskPassword[1] == "" then
+gg.alert("ᴘᴀssᴡᴏʀᴅ ᴄᴀɴ ɴᴏᴛ ʙᴇ ᴇᴍᴘᴛʏ  ❕") -- Once Password is empty or "" .
+return
+end
+if AskPassword[1] == Password then -- Check If Password is same as wanted .
+gg.toast("✅ Password မှန်ကန်ပါသည်❕")
+
 if gg.isPackageInstalled("com.gxlkj.tl") then
     gg.alert("Uninstall Your Decryption GG APK", "🇴 🇰") 
     os.exit()
@@ -90,12 +108,15 @@ if gg.isPackageInstalled("com.gxlkj.tl") then
   _G["gg"]["removeListItems"](save)
 if gg.isPackageInstalled("com.snm.vipgg") then
 else
-  gg.alert("👉ပေးထားတဲ့ GG ကိုသုံးပေးပါ👈 ( 𝘜𝘴𝘦 SN GG 👉  SN GG APK👈  )")
-  os.exit()
+  gg.alert("👉ပေးထားတဲ့ GG ကိုသုံးပေးပါ👈 ( 𝘜𝘴𝘦 MMKVIPGG  👉  MMKVIPGG APK👈  )")
+gg.alert("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁   \n\n  gg ဒေါင်းရန်အတွက် chrome appမှာ \n bit.ly/mmkgamingv3 \n ရိုက်ဒေါင်းလိုက်ပါ ​မဒေါင်းတက်ပါက F​acebook Account - https://m.me/mmkygn143ကိုဆက်သွယ်ပေးပါ", "🇴 🇰") 
+   os.exit()
 end
 if gg.PACKAGE == "com.snm.vipgg" then
 else
-gg.alert("👉 ပေးထားတဲ့ GG ကိုသုံးပေးပါ👈  ( 𝘜𝘴𝘦 SN GG 👉 SN GG APK👈  )")
+gg.alert("👉 ပေးထားတဲ့ GG ကိုသုံးပေးပါ👈  ( 𝘜𝘴𝘦 MMKVIPGG👉 MMKVIPGG APK👈  )")
+gg.alert("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁   \n\n  gg ဒေါင်းရန်အတွက် chrome appမှာ \n bit.ly/MMKVIPGG \n ရိုက်ဒေါင်းလိုက်ပါ ​မဒေါင်းတက်ပါက F​acebook Account - https://m.me/mmkygn143ကိုဆက်သွယ်ပေးပါ", "🇴 🇰") 
+
   os.exit()
 end
 gg.setVisible(false)
@@ -106,7 +127,7 @@ gg.alert(_ENV["os"]["date"]("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰�
 Date = "20201121"
 date = os.date("%Y%m%d%X")
 if date > Date then
-gg.alert("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁   \n\n  သက်တန်းကုန်ဆုံးသွားပါပြီ  Adminထံ Date ထပ်တောင်းပါ  Facebook Account - https://m.me/mmkygn143", "🇴 🇰") 
+ggw.alert("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁   \n\n  သက်တန်းကုန်ဆုံးသွားပါပြီ  Adminထံ Date ထပ်တောင်းပါ  F​acebook Account - https://m.me/mmkygn143", "🇴 🇰") 
 return
 end
 
@@ -5941,4 +5962,19 @@ while true do
   if PUBGSM == 1 then
     HOME()
   end
+  end
+ cs = "Snipy"
+while true do
+  if gg.isVisible(true) then
+    SNIPY = 1
+    gg.setVisible(false)
+  end
+  gg.clearResults()
+  if SNIPY == 1 then
+    main()
+  end
+end
+else
+gg.alert("❌Password မှာ​းနေပါသည် ❕")
+return
 end
