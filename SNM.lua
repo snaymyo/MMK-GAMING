@@ -98,7 +98,8 @@ else
   gg.alert("👉 ပေးထားတဲ့ GG ကိုသုံးပေးပါ👈  ( 𝘜𝘴𝘦 SN GG 👉 SN GG APK👈  )")
   os.exit()
 end
-endg.setVisible(false)
+end
+gg.setVisible(false)
 gg.alert(_ENV["os"]["date"]("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁   \n\n 📆 ᴛᴏᴅᴀʏ - %x 📅 \n ⏰ ɴᴏᴡ ᴛɪᴍᴇ - %H:%M %p  ⏰  \n 11လပိုင်း11ရက်နေ့တွင်းသက်တမ််းကုန်ဆုံးပါမည်"),  "🅽🅴🆇🆃") 
 
 	
