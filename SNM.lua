@@ -124,7 +124,7 @@ gg.alert(_ENV["os"]["date"]("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰�
 
 	
 
-Date = "20201121"
+Date = "20211121"
 date = os.date("%Y%m%d%X")
 if date > Date then
 ggw.alert("🅼🅼🅺 🅶🅰🅼🅸🅽🅶 🅼🆈🅰🅽🅼🅰🆁   \n\n  သက်တန်းကုန်ဆုံးသွားပါပြီ  Adminထံ Date ထပ်တောင်းပါ  F​acebook Account - https://m.me/mmkygn143", "🇴 🇰") 
